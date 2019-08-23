@@ -1,0 +1,142 @@
+<?php
+
+/**
+ * Blog class for BSSocial
+ *
+ * add desc
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ *
+ * This file is part of BlueSpice MediaWiki
+ * For further information visit http://bluespice.com
+ *
+ * @author     Patric Wirth <wirth@hallowelt.com>
+ * @package    BlueSpiceSocial
+ * @subpackage BSSocial
+ * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
+ * @filesource
+ */
+namespace BlueSpice\Social\Blog\EntityConfig;
+use BlueSpice\Social\EntityConfig\Text;
+use BlueSpice\Social\Data\Entity\Schema;
+use BlueSpice\Data\FieldType;
+use BlueSpice\Social\Blog\Entity\Blog as Entity;
+
+/**
+ * Blog class for BSSocial extension
+ * @package BlueSpiceSocial
+ * @subpackage BSSocial
+ */
+class Blog extends Text{
+	public function addGetterDefaults() {
+		return array();
+	}
+	protected function get_EntityClass() {
+		return "\\BlueSpice\\Social\\Blog\\Entity\\Blog";
+	}
+	protected function get_ParserClass() {
+		return 'Parser';
+	}
+	protected function get_EntityTemplateDefault() {
+		return "BlueSpiceSocialBlog.Entity.Blog.Default";
+	}
+
+	protected function get_Renderer() {
+		return 'socialentityblog';
+	}
+
+	protected function get_ModuleScripts() {
+		return array_merge( parent::get_ModuleScripts(), [
+			'ext.bluespice.social.entity.text',
+			'ext.bluespice.social.entity.blog',
+		]);
+	}
+	protected function get_ModuleStyles() {
+		return array_merge( parent::get_ModuleStyles(), [
+			'ext.bluespice.socialblog.styles'
+		]);
+	}
+	protected function get_HeaderMessageKeyCreateNew() {
+		return 'bs-socialblog-entityblog-header-create';
+	}
+	protected function get_HeaderMessageKey() {
+		return 'bs-socialblog-entityblog-header';
+	}
+	protected function get_TypeMessageKey() {
+		return 'bs-socialblog-type';
+	}
+	protected function get_VarMessageKeys() {
+		return array_merge(
+			parent::get_VarMessageKeys(),
+			[
+				Entity::ATTR_TEXT => 'bs-social-var-text',
+				Entity::ATTR_BLOG_TITLE => 'bs-socialblog-var-blogtitle',
+				Entity::ATTR_TEASER_TEXT => 'bs-social-var-teasertext',
+			]
+		);
+	}
+	protected function get_AttributeDefinitions() {
+		return array_merge(
+			parent::get_AttributeDefinitions(),
+			[
+				Entity::ATTR_BLOG_TITLE => [
+					Schema::FILTERABLE => true,
+					Schema::SORTABLE => true,
+					Schema::TYPE => FieldType::STRING,
+					Schema::INDEXABLE => true,
+					Schema::STORABLE => true,
+				],
+				Entity::ATTR_TEASER_TEXT => [
+					Schema::FILTERABLE => true,
+					Schema::SORTABLE => false,
+					Schema::TYPE => FieldType::STRING,
+					Schema::INDEXABLE => true,
+					Schema::STORABLE => true,
+				],
+			]
+		);
+	}
+
+
+	protected function get_NotificationObjectClass() {
+		return \BlueSpice\Social\Blog\Notification\SocialBlogNotification::class;
+	}
+
+	protected function get_NotificationTypePrefix() {
+		return 'bs-social-blog';
+	}
+
+	protected function get_HasNotifications() {
+		return true;
+	}
+
+	protected function get_EntityListSpecialBlogTypeAllowed() {
+		return true;
+	}
+
+	protected function get_ExtendedSearchListable() {
+		return true;
+	}
+
+	protected function get_EntityListSpecialTimelineTypeSelected() {
+		return true;
+	}
+
+	protected function get_EntityListPreloadTitle() {
+		return $this->get( 'SocialBlogPreloadTitle' );
+	}
+
+}

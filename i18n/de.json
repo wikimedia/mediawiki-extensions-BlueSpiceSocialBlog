@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth <wirth@hallowelt.com>"
+		]
+	},
+	"bs-socialblog-desc": "Blog-Entität für BlueSpiceSocial",
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "Neuer Blog",
+	"bs-socialblog-entityblog-header": "[[Special:Blog/$3|$6]]",
+	"bs-socialblog-var-blogtitle": "Titel",
+	"bs-socialblog-entityblog-content-more-btn-more": "Mehr",
+	"bs-socialblog-entityblog-content-more-btn-less": "Weniger",
+	"bs-socialblog-toc-useblogteaser": "Benutze Teaser-Text für Blog-Beiträge in der Timeline",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1"
+}

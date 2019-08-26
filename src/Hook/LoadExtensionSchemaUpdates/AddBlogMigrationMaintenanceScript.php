@@ -6,7 +6,6 @@ use BlueSpice\Hook\LoadExtensionSchemaUpdates;
 
 class AddBlogMigrationMaintenanceScript extends LoadExtensionSchemaUpdates {
 	protected function doProcess() {
-
 		$this->updater->addPostDatabaseUpdateMaintenance(
 			'BSMigrateBlog'
 		);

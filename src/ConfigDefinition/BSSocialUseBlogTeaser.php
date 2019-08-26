@@ -4,6 +4,10 @@ namespace BlueSpice\Social\Blog\ConfigDefinition;
 
 class BSSocialUseBlogTeaser extends \BlueSpice\ConfigDefinition\BooleanSetting {
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function getPaths() {
 		return [
 			static::MAIN_PATH_FEATURE . '/' . static::FEATURE_PERSONALISATION . '/BlueSpiceSocialBlog',
@@ -12,10 +16,18 @@ class BSSocialUseBlogTeaser extends \BlueSpice\ConfigDefinition\BooleanSetting {
 		];
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getLabelMessageKey() {
 		return 'bs-socialblog-toc-useblogteaser';
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	public function isRLConfigVar() {
 		return true;
 	}

@@ -15,6 +15,11 @@ class Blog extends \BlueSpice\SpecialPage {
 		parent::__construct( 'Blog', 'read' );
 	}
 
+	/**
+	 *
+	 * @param string $par
+	 * @return null
+	 */
 	public function execute( $par ) {
 		$this->checkPermissions();
 
@@ -31,7 +36,8 @@ class Blog extends \BlueSpice\SpecialPage {
 			$this->getContext()->getUser()
 		);
 
-		if( $entity = $this->extractEntity( $par ) ) {
+		$entity = $this->extractEntity( $par );
+		if ( $entity ) {
 			$this->getOutput()->addBacklinkSubtitle(
 				$this->getPageTitle()
 			);
@@ -54,15 +60,20 @@ class Blog extends \BlueSpice\SpecialPage {
 		$this->getOutput()->addHTML( $renderer->render() );
 	}
 
+	/**
+	 *
+	 * @param string $param
+	 * @return BlogEntity|bool
+	 */
 	protected function extractEntity( $param = '' ) {
-		if( empty( $param ) ) {
+		if ( empty( $param ) ) {
 			return false;
 		}
 		$entity = Services::getInstance()->getBSEntityFactory()->newFromID(
 			$param,
 			BlogEntity::TYPE
 		);
-		if( !$entity instanceof BlogEntity || !$entity->exists() ) {
+		if ( !$entity instanceof BlogEntity || !$entity->exists() ) {
 			return false;
 		}
 		return $entity;

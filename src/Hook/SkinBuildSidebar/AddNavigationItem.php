@@ -2,22 +2,24 @@
 
 namespace BlueSpice\Social\Blog\Hook\SkinBuildSidebar;
 
-use \BlueSpice\Hook\SkinBuildSidebar;
+use Title;
+use SpecialPage;
+use BlueSpice\Hook\SkinBuildSidebar;
 
 class AddNavigationItem extends SkinBuildSidebar {
 
 	protected function skipProcessing() {
-		if( !\SpecialPage::getTitleFor( 'Blog' ) ) {
+		if ( !SpecialPage::getTitleFor( 'Blog' ) ) {
 			return true;
 		}
-		if( \Title::makeTitle( NS_MEDIAWIKI, 'Sidebar' )->exists() ) {
+		if ( Title::makeTitle( NS_MEDIAWIKI, 'Sidebar' )->exists() ) {
 			return true;
 		}
 		return false;
 	}
 
 	protected function doProcess() {
-		$title = \SpecialPage::getTitleFor( 'Blog' );
+		$title = SpecialPage::getTitleFor( 'Blog' );
 		$this->bar['navigation'][] = [
 			'href' => $title->getLocalURL(),
 			'text' => $this->skin->msg( 'bs-socialblog-special-blog-heading' ),

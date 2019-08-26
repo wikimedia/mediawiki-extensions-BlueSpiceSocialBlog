@@ -23,9 +23,12 @@
  * @package    BlueSpiceSocial
  * @subpackage BlueSpiceSocialBlog
  * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  */
 
 namespace BlueSpice\Social\Blog;
 
-class Extension extends \BlueSpice\Extension {}
+use BlueSpice\Extension as BSExt;
+
+class Extension extends BSExt {
+}

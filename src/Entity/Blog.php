@@ -26,9 +26,15 @@
  * @package    BlueSpiceSocial
  * @subpackage BlueSpiceSocialBlog
  * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  */
 namespace BlueSpice\Social\Blog\Entity;
+
+use Message;
+use User;
+use Status;
+use Title;
+use SpecialPage;
 use BlueSpice\Social\Entity\Text;
 use BlueSpice\Social\Parser\Teaser;
 use BlueSpice\Social\Parser\Input;
@@ -44,11 +50,17 @@ class Blog extends Text {
 	const ATTR_BLOG_TITLE = 'blogtitle';
 	const ATTR_TEASER_TEXT = 'teasertext';
 
+	/**
+	 *
+	 * @param string $attrName
+	 * @param mixed|null $default
+	 * @return mixed
+	 */
 	public function get( $attrName, $default = null ) {
-		if( $attrName === static::ATTR_TEASER_TEXT ) {
-			if( empty( $this->attributes[static::ATTR_TEASER_TEXT] ) ) {
-				$oParser = new Teaser();
-				$this->attributes[static::ATTR_TEASER_TEXT] = $oParser->parse(
+		if ( $attrName === static::ATTR_TEASER_TEXT ) {
+			if ( empty( $this->attributes[static::ATTR_TEASER_TEXT] ) ) {
+				$parser = new Teaser();
+				$this->attributes[static::ATTR_TEASER_TEXT] = $parser->parse(
 					$this->get( static::ATTR_PARSED_TEXT, '' )
 				);
 			}
@@ -100,6 +112,7 @@ class Blog extends Text {
 
 	/**
 	 * Gets the attributes formated for the api
+	 * @param array $a
 	 * @return object
 	 */
 	public function getFullData( $a = [] ) {
@@ -115,17 +128,21 @@ class Blog extends Text {
 					''
 				),
 			]
-		));
+		) );
 	}
 
+	/**
+	 *
+	 * @param \stdClass $o
+	 */
 	public function setValuesByObject( \stdClass $o ) {
-		if( !empty( $o->{static::ATTR_BLOG_TITLE} ) ) {
+		if ( !empty( $o->{static::ATTR_BLOG_TITLE} ) ) {
 			$this->set(
 				static::ATTR_BLOG_TITLE,
 				$o->{static::ATTR_BLOG_TITLE}
 			);
 		}
-		if( isset( $o->{static::ATTR_TEASER_TEXT} ) ) {
+		if ( isset( $o->{static::ATTR_TEASER_TEXT} ) ) {
 			$this->set(
 				static::ATTR_TEASER_TEXT,
 				$o->{static::ATTR_TEASER_TEXT}
@@ -134,39 +151,50 @@ class Blog extends Text {
 		parent::setValuesByObject( $o );
 	}
 
-	public function getHeader( $oMsg = null ) {
-		$oMsg = parent::getHeader( $oMsg );
-		return $oMsg->params([
+	/**
+	 *
+	 * @param Message|null $msg
+	 * @return Message
+	 */
+	public function getHeader( $msg = null ) {
+		$msg = parent::getHeader( $msg );
+		return $msg->params( [
 			$this->get( static::ATTR_BLOG_TITLE, '' ),
-		]);
-	}
-
-	public function save( \User $oUser = null, $aOptions = array() ) {
-		$oParser = new Input;
-		$this->set( static::ATTR_BLOG_TITLE,
-			$oParser->parse( $this->get( static::ATTR_BLOG_TITLE, '' ) )
-		);
-		if( empty( $this->get( static::ATTR_BLOG_TITLE, '' ) ) ) {
-			return \Status::newFatal( wfMessage(
-				'bs-social-entity-fatalstatus-save-emptyfield',
-				$this->getVarMessage( static::ATTR_BLOG_TITLE )->plain()
-			));
-		}
-		$oStatus = parent::save( $oUser, $aOptions );
-		if( !$oStatus->isOK() ) {
-			return $oStatus;
-		}
-		$this->set( static::ATTR_TEASER_TEXT,
-			$oParser->parse( $this->get( static::ATTR_TEASER_TEXT, '' ) )
-		);
-		return $oStatus;
+		] );
 	}
 
 	/**
 	 *
-	 * @return \Title
+	 * @param User|null $user
+	 * @param array $options
+	 * @return Status
+	 */
+	public function save( User $user = null, $options = [] ) {
+		$parser = new Input;
+		$this->set( static::ATTR_BLOG_TITLE,
+			$parser->parse( $this->get( static::ATTR_BLOG_TITLE, '' ) )
+		);
+		if ( empty( $this->get( static::ATTR_BLOG_TITLE, '' ) ) ) {
+			return Status::newFatal( wfMessage(
+				'bs-social-entity-fatalstatus-save-emptyfield',
+				$this->getVarMessage( static::ATTR_BLOG_TITLE )->plain()
+			) );
+		}
+		$status = parent::save( $user, $options );
+		if ( !$status->isOK() ) {
+			return $status;
+		}
+		$this->set( static::ATTR_TEASER_TEXT,
+			$parser->parse( $this->get( static::ATTR_TEASER_TEXT, '' ) )
+		);
+		return $status;
+	}
+
+	/**
+	 *
+	 * @return Title
 	 */
 	public function getBackLinkTitle() {
-		return \SpecialPage::getTitleFor( 'Blog' );
+		return SpecialPage::getTitleFor( 'Blog' );
 	}
 }

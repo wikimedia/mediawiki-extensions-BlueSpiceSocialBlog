@@ -2,10 +2,15 @@
 
 namespace BlueSpice\Social\Blog\Notification;
 
-class Registrator {
-	public static function registerNotifications( \BlueSpice\NotificationManager $notificationsManager ) {
-		$echoNotifier = $notificationsManager->getNotifier();
+use BlueSpice\NotificationManager;
 
+class Registrator {
+	/**
+	 *
+	 * @param NotificationManager $notificationsManager
+	 */
+	public static function registerNotifications(
+		NotificationManager $notificationsManager ) {
 		$config = [
 			'category' => 'bs-social-entity-cat',
 			'summary-params' => [

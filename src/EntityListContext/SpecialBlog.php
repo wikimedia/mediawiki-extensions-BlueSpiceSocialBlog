@@ -2,6 +2,7 @@
 
 namespace BlueSpice\Social\Blog\EntityListContext;
 
+use User;
 use BlueSpice\Services;
 use BlueSpice\Social\Blog\Entity\Blog;
 
@@ -12,14 +13,22 @@ class SpecialBlog extends \BlueSpice\Social\EntityListContext {
 
 	/**
 	 * Owner of the user page
-	 * @var \User
+	 * @var User
 	 */
 	protected $owner = null;
 
+	/**
+	 *
+	 * @return int
+	 */
 	public function getLimit() {
 		return 5;
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function getLockedFilterNames() {
 		return array_merge(
 			parent::getLockedFilterNames(),
@@ -27,27 +36,39 @@ class SpecialBlog extends \BlueSpice\Social\EntityListContext {
 		);
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function getSortProperty() {
 		return Blog::ATTR_TIMESTAMP_CREATED;
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function getOutputTypes() {
 		return array_merge( parent::getOutputTypes(), [
 			'blog' => 'Page'
-		]);
+		] );
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function getPreloadedEntities() {
 		$preloaded = parent::getPreloadedEntities();
 		$blog = Services::getInstance()->getBSEntityFactory()->newFromObject(
 			$this->getRawBlog()
 		);
-		if( !$blog instanceof Blog ) {
+		if ( !$blog instanceof Blog ) {
 			return $preloaded;
 		}
 
 		$status = $blog->userCan( 'create', $this->getUser() );
-		if( !$status->isOK() ) {
+		if ( !$status->isOK() ) {
 			return $preloaded;
 		}
 
@@ -55,15 +76,19 @@ class SpecialBlog extends \BlueSpice\Social\EntityListContext {
 		return $preloaded;
 	}
 
+	/**
+	 *
+	 * @return \stdClass
+	 */
 	protected function getRawBlog() {
-		return (object) [
+		return (object)[
 			Blog::ATTR_TYPE => Blog::TYPE,
 		];
 	}
 
 	/**
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public function showEntitySpawner() {
 		return false;

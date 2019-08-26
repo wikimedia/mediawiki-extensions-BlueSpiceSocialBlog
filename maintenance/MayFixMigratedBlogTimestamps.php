@@ -2,10 +2,14 @@
 
 $extDir = dirname( dirname( __DIR__ ) );
 
-require_once( "$extDir/BlueSpiceFoundation/maintenance/BSMaintenance.php" );
+require_once "$extDir/BlueSpiceFoundation/maintenance/BSMaintenance.php";
 
+use BlueSpice\Services;
+use BlueSpice\Context;
+use BlueSpice\EntityConfig;
 use BlueSpice\Social\Blog\Entity\Blog;
-use BlueSpice\Social\Blog\EntityListContext\SpecialBlog as Context;
+use BlueSpice\Social\Blog\EntityListContext\SpecialBlog as BlogContext;
+use BlueSpice\Social\Data\Entity\Store;
 use BlueSpice\Data\ReaderParams;
 use BlueSpice\Data\FieldType;
 use BlueSpice\Data\Filter\ListValue;
@@ -18,16 +22,16 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 	public function __construct() {
 		parent::__construct();
 
-		//we hope, that the default blog namespace was used or the current blog
-		//namespace is still defined in any configuration file!
+		// we hope, that the default blog namespace was used or the current blog
+		// namespace is still defined in any configuration file!
 		global $wgExtraNamespaces, $bsgSystemNamespaces;
-		if( !defined( 'NS_BLOG' ) ) {
+		if ( !defined( 'NS_BLOG' ) ) {
 			define( 'NS_BLOG', 1502 );
 			$wgExtraNamespaces[NS_BLOG] = 'Blog';
 			$bsgSystemNamespaces[1502] = 'NS_BLOG';
 		}
 
-		if( !defined( 'NS_BLOG_TALK' ) ) {
+		if ( !defined( 'NS_BLOG_TALK' ) ) {
 			define( 'NS_BLOG_TALK', 1503 );
 			$wgExtraNamespaces[NS_BLOG_TALK] = 'Blog_talk';
 			$bsgSystemNamespaces[1503] = 'NS_BLOG_TALK';
@@ -36,21 +40,25 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 		$this->requireExtension( "BlueSpiceSocial" );
 
 		$this->addOption( 'execute', 'Really execute the script' );
-
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	public function execute() {
 		$this->output( "...bs_blog -> migration timestamp check...\n" );
 
 		$execute = $this->getOption( 'execute', false ) ? true : false;
 
 		$this->readData();
-		$this->output( count($this->data). " blogs\n" );
-		foreach( $this->data as $articleId => $blog ) {
-			$title = \Title::newFromRow( $blog );
+		$this->output( count( $this->data ) . " blogs\n" );
+		foreach ( $this->data as $articleId => $blog ) {
+			$title = Title::newFromRow( $blog );
 			$this->output( "\n '{$title->getText()}': " );
-			
-			if( !$entity = $this->getEntity( $title ) ) {
+
+			$entity = $this->getEntity( $title );
+			if ( !$entity ) {
 				$this->output( "ERROR: Entity Blog could not be found :(" );
 				$this->output( "\n" );
 				continue;
@@ -59,25 +67,26 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 				" SocialEntity:{$entity->get( Blog::ATTR_ID, 0 )}"
 			);
 			$this->output( "\n    -Title last Rev ID: " );
-			if( empty( $title->getLatestRevID() ) ) {
+			if ( empty( $title->getLatestRevID() ) ) {
 				$this->output( "ERROR: empty" );
 				$this->output( "\n" );
 				continue;
 			}
 			$this->output( $title->getLatestRevID() );
-			$date = \DateTime::createFromFormat(
+			$date = DateTime::createFromFormat(
 				'YmdHis',
 				$title->getEarliestRevTime()
 			);
 			$this->output( "\n    -Title last Rev TS: " );
-			if( !$date || !$ts = $date->format( 'YmdHis' ) ) {
+			$ts = $date->format( 'YmdHis' );
+			if ( !$date || !$ts ) {
 				$this->output( "ERROR: invalid TS :(" );
 				$this->output( "\n" );
 				continue;
 			}
 			$this->output( "$ts ({$date->format( 'd.m.Y H:i:s' )})" );
 			$this->output( "\n    =>Overwrite Blog TS: " );
-			if( !$execute ) {
+			if ( !$execute ) {
 				$this->output( "not really.. use '--exucute'" );
 				$this->output( "\n" );
 				continue;
@@ -97,54 +106,53 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 		$res = $this->getDB( DB_REPLICA )->select(
 			'page',
 			'*',
-			[ 'page_namespace' => NS_BLOG ] 
-			
+			[ 'page_namespace' => NS_BLOG ]
+
 		);
-		foreach( $res as $row ) {
+		foreach ( $res as $row ) {
 			$this->data[$row->page_id] = $row;
 		}
 	}
 
 	/**
 	 *
-	 * @param \stdClass $shout
-	 * @param \Title $title
-	 * @return Blog
+	 * @param Title $title
+	 * @return Blog|null
 	 */
-	protected function getEntity( \Title $title ) {
+	protected function getEntity( Title $title ) {
 		try {
 			$store = $this->getStore();
 			$params = new ReaderParams( [
 				'filter' => [
-					(object) [
+					(object)[
 						ListValue::KEY_PROPERTY => Blog::ATTR_TYPE,
 						ListValue::KEY_VALUE => [ Blog::TYPE ],
 						ListValue::KEY_COMPARISON => ListValue::COMPARISON_CONTAINS,
 						ListValue::KEY_TYPE => FieldType::LISTVALUE
 					],
-					(object) [
+					(object)[
 						ListValue::KEY_PROPERTY => Blog::ATTR_BLOG_TITLE,
 						ListValue::KEY_VALUE => $title->getText(),
 						ListValue::KEY_COMPARISON => ListValue::COMPARISON_CONTAINS,
 						ListValue::KEY_TYPE => FieldType::STRING
 					],
 				],
-				'sort' => [ (object) [
+				'sort' => [ (object)[
 					'property' => Blog::ATTR_BLOG_TITLE,
 					'direction' => 'ASC'
-				]],
+				] ],
 				'limit' => ReaderParams::LIMIT_INFINITE,
 				'start' => 0,
 			] );
-			$context = new Context(
-				new \BlueSpice\Context( \RequestContext::getMain(), $this->getEntityConfig() ),
+			$context = new BlogContext(
+				new Context( RequestContext::getMain(), $this->getEntityConfig() ),
 				$this->getEntityConfig(),
 				$this->getMaintenanceUser()
 			);
 			$resultSet = $store->getReader( $context )->read( $params );
-			foreach( $resultSet->getRecords() as $record ) {
+			foreach ( $resultSet->getRecords() as $record ) {
 				return $this->getFactory()->newFromObject(
-					(object) $record->getData()
+					(object)$record->getData()
 				);
 			}
 		} catch ( \Exception $e ) {
@@ -155,33 +163,33 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 	}
 
 	/**
-	 * @retrun \BlueSpice\EntityFactory
+	 * @return EntityFactory
 	 */
 	protected function getFactory() {
-		return \BlueSpice\Services::getInstance()->getBSEntityFactory();
+		return Services::getInstance()->getBSEntityFactory();
 	}
 
 	/**
-	 * 
-	 * @return \BlueSpice\EntityConfig;
+	 *
+	 * @return EntityConfig
 	 */
 	protected function getEntityConfig() {
-		return \BlueSpice\Services::getInstance()->getBSEntityConfigFactory()
+		return Services::getInstance()->getBSEntityConfigFactory()
 			->newFromType( Blog::TYPE );
 	}
 
 	/**
 	 *
-	 * @return \BlueSpice\Social\Data\Entity\Store
-	 * @throws \MWException
+	 * @throws MWException
+	 * @return Store
 	 */
 	protected function getStore() {
-		if( $this->store ) {
+		if ( $this->store ) {
 			return $this->store;
 		}
 		$storeClass = $this->getEntityConfig()->get( 'StoreClass' );
-		if( !class_exists( $storeClass ) ) {
-			throw new \MWException( "Store class '$storeClass' not found" );
+		if ( !class_exists( $storeClass ) ) {
+			throw new MWException( "Store class '$storeClass' not found" );
 		}
 		$this->store = new $storeClass();
 		return $this->store;
@@ -189,24 +197,26 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 
 	/**
 	 *
-	 * @param \Title $title
-	 * @param \Title $origTitle
+	 * @param Title $title
+	 * @param Title $origTitle
+	 * @return bool
 	 */
 	protected function modifySourceTitleTimestamp( $title, $origTitle ) {
-		if( !$title || empty( $title->getLatestRevID() ) ) {
+		if ( !$title || empty( $title->getLatestRevID() ) ) {
 			return false;
 		}
 
-		//dont use any MWTimestamp here, as they are not reliably in cmd!
+		// dont use any MWTimestamp here, as they are not reliably in cmd!
 		$date = \DateTime::createFromFormat(
 			'YmdHis',
 			$origTitle->getEarliestRevTime()
 		);
-		if( !$date || !$ts = $date->format( 'YmdHis' ) ) {
+		$ts = $date->format( 'YmdHis' );
+		if ( !$date || !$ts ) {
 			return false;
 		}
 
-		//hacky, hope for the best ;)
+		// hacky, hope for the best ;)
 		return $this->getDB( DB_MASTER )->update(
 			'revision',
 			[ 'rev_timestamp' => $ts ],
@@ -215,6 +225,10 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 		);
 	}
 
+	/**
+	 *
+	 * @return User
+	 */
 	protected function getMaintenanceUser() {
 		return \BlueSpice\Services::getInstance()->getBSUtilityFactory()
 			->getMaintenanceUser()->getUser();
@@ -223,4 +237,4 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 }
 
 $maintClass = 'MayFixMigratedBlogTimestamps';
-require_once( RUN_MAINTENANCE_IF_MAIN );
+require_once RUN_MAINTENANCE_IF_MAIN;

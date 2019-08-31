@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Selven"
+			"Selven",
+			"Beta16"
 		]
 	},
-	"blog": "Blog"
+	"blog": "Blog",
+	"bs-socialblog-var-blogtitle": "Titolo",
+	"bs-socialblog-entityblog-content-more-btn-more": "Altro",
+	"bs-socialblog-entityblog-content-more-btn-less": "Meno"
 }

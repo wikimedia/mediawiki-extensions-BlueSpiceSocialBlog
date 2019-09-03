@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
-	"blog": "Blog"
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-var-blogtitle": "Título",
+	"bs-socialblog-entityblog-content-more-btn-more": "Más",
+	"bs-socialblog-entityblog-content-more-btn-less": "Menos",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-social-notification-blog-primary-link-label": "Ver blog"
 }

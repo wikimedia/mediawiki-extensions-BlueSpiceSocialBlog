@@ -1,5 +1,5 @@
 /**
- * @author     Patric Wirth <wirth@hallowelt.com>
+ * @author     Patric Wirth
  * @package    BlueSocial
  * @subpackage BlueSocialBlog
  * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.

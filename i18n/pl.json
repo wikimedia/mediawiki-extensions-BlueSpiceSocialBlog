@@ -4,5 +4,7 @@
 			"Chrumps"
 		]
 	},
-	"blog": "Blog"
+	"blog": "Blog",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1"
 }

@@ -13,17 +13,17 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 		parent::__construct();
 		// we hope, that the default blog namespace was used or the current blog
 		// namespace is still defined in any configuration file!
-		global $wgExtraNamespaces, $bsgSystemNamespaces;
+		global $wgExtraNamespaces;
 		if ( !defined( 'NS_BLOG' ) ) {
 			define( 'NS_BLOG', 1502 );
 			$wgExtraNamespaces[NS_BLOG] = 'Blog';
-			$bsgSystemNamespaces[1502] = 'NS_BLOG';
+			$GLOBALS['bsgSystemNamespaces'][1502] = 'NS_BLOG';
 		}
 
 		if ( !defined( 'NS_BLOG_TALK' ) ) {
 			define( 'NS_BLOG_TALK', 1503 );
 			$wgExtraNamespaces[NS_BLOG_TALK] = 'Blog_talk';
-			$bsgSystemNamespaces[1503] = 'NS_BLOG_TALK';
+			$GLOBALS['bsgSystemNamespaces'][1503] = 'NS_BLOG_TALK';
 		}
 	}
 

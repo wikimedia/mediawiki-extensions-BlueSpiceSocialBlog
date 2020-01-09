@@ -6,12 +6,14 @@
 			"Hamilton Abreu"
 		]
 	},
+	"bs-socialblog-desc": "Entidade de blogue para BlueSpiceSocial",
 	"bs-socialblog-type": "Blogue",
 	"blog": "Blogue",
-	"bs-socialblog-entityblog-header-create": "Novo Blogue",
+	"bs-socialblog-entityblog-header-create": "Blogue novo",
 	"bs-socialblog-var-blogtitle": "Título",
 	"bs-socialblog-entityblog-content-more-btn-more": "Mais",
 	"bs-socialblog-entityblog-content-more-btn-less": "Menos",
+	"bs-socialblog-toc-useblogteaser": "Usar texto promocional para entradas de blogue na linha cronológica",
 	"bs-socialblog-special-blog-heading": "Blogue",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
 	"bs-social-notifications-blog-create": "{{GENDER:$1|O utilizador|A utilizadora}} $2 criou o novo blogue \"$3\"",

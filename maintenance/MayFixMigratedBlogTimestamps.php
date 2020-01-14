@@ -4,15 +4,15 @@ $extDir = dirname( dirname( __DIR__ ) );
 
 require_once "$extDir/BlueSpiceFoundation/maintenance/BSMaintenance.php";
 
-use BlueSpice\Services;
 use BlueSpice\Context;
+use BlueSpice\Data\FieldType;
+use BlueSpice\Data\Filter\ListValue;
+use BlueSpice\Data\ReaderParams;
 use BlueSpice\EntityConfig;
+use BlueSpice\Services;
 use BlueSpice\Social\Blog\Entity\Blog;
 use BlueSpice\Social\Blog\EntityListContext\SpecialBlog as BlogContext;
 use BlueSpice\Social\Data\Entity\Store;
-use BlueSpice\Data\ReaderParams;
-use BlueSpice\Data\FieldType;
-use BlueSpice\Data\Filter\ListValue;
 
 class MayFixMigratedBlogTimestamps extends Maintenance {
 

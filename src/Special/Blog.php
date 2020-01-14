@@ -3,11 +3,11 @@
 namespace BlueSpice\Social\Blog\Special;
 
 use BlueSpice\Context;
-use BlueSpice\Services;
 use BlueSpice\Renderer\Params;
+use BlueSpice\Services;
+use BlueSpice\Social\Blog\Entity\Blog as BlogEntity;
 use BlueSpice\Social\Blog\EntityListContext\SpecialBlog;
 use BlueSpice\Social\Renderer\Entity as Renderer;
-use BlueSpice\Social\Blog\Entity\Blog as BlogEntity;
 
 class Blog extends \BlueSpice\SpecialPage {
 

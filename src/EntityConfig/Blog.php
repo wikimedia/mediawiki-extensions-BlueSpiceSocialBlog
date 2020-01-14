@@ -31,10 +31,10 @@
  */
 namespace BlueSpice\Social\Blog\EntityConfig;
 
-use BlueSpice\Social\EntityConfig\Text;
-use BlueSpice\Social\Data\Entity\Schema;
 use BlueSpice\Data\FieldType;
 use BlueSpice\Social\Blog\Entity\Blog as Entity;
+use BlueSpice\Social\Data\Entity\Schema;
+use BlueSpice\Social\EntityConfig\Text;
 
 /**
  * Blog class for BSSocial extension

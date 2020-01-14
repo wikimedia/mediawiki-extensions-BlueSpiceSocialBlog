@@ -2,9 +2,9 @@
 
 namespace BlueSpice\Social\Blog\Hook\SkinBuildSidebar;
 
-use Title;
-use SpecialPage;
 use BlueSpice\Hook\SkinBuildSidebar;
+use SpecialPage;
+use Title;
 
 class AddNavigationItem extends SkinBuildSidebar {
 

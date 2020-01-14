@@ -2,9 +2,9 @@
 
 namespace BlueSpice\Social\Blog\EntityListContext;
 
-use User;
 use BlueSpice\Services;
 use BlueSpice\Social\Blog\Entity\Blog;
+use User;
 
 class SpecialBlog extends \BlueSpice\Social\EntityListContext {
 	const CONFIG_NAME_OUTPUT_TYPE = 'EntityListSpecialBlogOutputType';

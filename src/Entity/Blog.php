@@ -30,14 +30,14 @@
  */
 namespace BlueSpice\Social\Blog\Entity;
 
+use BlueSpice\Social\Entity\Text;
+use BlueSpice\Social\Parser\Input;
+use BlueSpice\Social\Parser\Teaser;
 use Message;
-use User;
+use SpecialPage;
 use Status;
 use Title;
-use SpecialPage;
-use BlueSpice\Social\Entity\Text;
-use BlueSpice\Social\Parser\Teaser;
-use BlueSpice\Social\Parser\Input;
+use User;
 
 /**
  * Blog class for BSSocial extension

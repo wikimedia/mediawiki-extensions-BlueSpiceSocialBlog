@@ -2,9 +2,9 @@
 
 namespace BlueSpice\Social\Blog\Notification;
 
-use Message;
-use BlueSpice\Social\Notifications\SocialNotification;
 use BlueSpice\Social\Blog\Entity\Blog as BlogEntity;
+use BlueSpice\Social\Notifications\SocialNotification;
+use Message;
 
 class SocialBlogNotification extends SocialNotification {
 	/**

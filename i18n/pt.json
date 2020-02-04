@@ -8,7 +8,7 @@
 	},
 	"blog": "Blogue",
 	"bs-socialblog-type": "Blogue",
-	"bs-socialblog-entityblog-header-create": "Novo Blogue",
+	"bs-socialblog-entityblog-header-create": "Blogue novo",
 	"bs-socialblog-var-blogtitle": "Título",
 	"bs-socialblog-entityblog-content-more-btn-more": "Mais",
 	"bs-socialblog-entityblog-content-more-btn-less": "Menos",
@@ -26,5 +26,7 @@
 	"bs-social-notifications-email-blog-delete-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
 	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
-	"bs-social-notification-blog-primary-link-label": "Ver blogue"
+	"bs-social-notification-blog-primary-link-label": "Ver blogue",
+	"bs-socialblog-desc": "Entidade de blogue para BlueSpiceSocial",
+	"bs-socialblog-toc-useblogteaser": "Usar texto promocional para entradas de blogue na linha cronológica"
 }

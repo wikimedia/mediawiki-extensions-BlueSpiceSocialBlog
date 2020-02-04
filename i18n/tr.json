@@ -1,8 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Incelemeelemani"
+			"Incelemeelemani",
+			"BaRaN6161 TURK"
 		]
 	},
-	"blog": "Blog"
+	"blog": "Blog",
+	"bs-socialblog-desc": "BlueSpiceSocial için blog varlığı",
+	"bs-socialblog-type": "Blog",
+	"bs-socialblog-entityblog-header-create": "Yeni Blog",
+	"bs-socialblog-var-blogtitle": "Başlık",
+	"bs-socialblog-entityblog-content-more-btn-more": "Dahası",
+	"bs-socialblog-entityblog-content-more-btn-less": "Daha az",
+	"bs-socialblog-toc-useblogteaser": "Zaman çizelgesindeki blog girişleri için teaser metni kullanma",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "Kullanıcı {{GENDER:$1|$2}} yeni blog oluşturdu \"$3\"",
+	"bs-social-notifications-email-blog-create-subject": "Kullanıcı {{GENDER:$1|$2}} yeni blog oluşturdu \"$3\"",
+	"bs-social-notifications-email-blog-create-body": "Kullanıcı {{GENDER:$1|$2}} yeni blog oluşturdu \"$3\" altındaki metin sayfası:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "$2, \"$3\" yeni blog {{GENDER:$1|oluşturdu}}",
+	"bs-social-notifications-blog-edit": "$2, \"$3\" blogu {{GENDER:$1|düzenledi}}",
+	"bs-social-notifications-email-blog-edit-subject": "$2, \"$3\" blogu {{GENDER:$1|düzenledi}}",
+	"bs-social-notifications-email-blog-edit-body": "$2, \"$3\" blogu {{GENDER:$1|düzenledi}}. Yeni metin:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "$2, \"$3\" blogunu {{GENDER:$1|düzenledi}}",
+	"bs-social-notifications-blog-delete": "Kullanıcı $2, \"$3\" blogunu {{GENDER:$1|sildi}}",
+	"bs-social-notifications-email-blog-delete-subject": "Kullanıcı $2, \"$3\" blogunu {{GENDER:$1|sildi}}",
+	"bs-social-notifications-email-blog-delete-body": "Kullanıcı $2, \"$3\" blogunu {{GENDER:$1|sildi}}",
+	"bs-social-notifications-web-blog-delete-body": "$2, \"$3\" blogunu {{GENDER:$1|sildi}}",
+	"bs-social-notification-blog-primary-link-label": "Blogu görüntüle"
 }

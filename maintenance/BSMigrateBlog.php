@@ -119,7 +119,7 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return EntityFactory
 	 */
 	protected function getFactory() {
-		return Services::getInstance()->getBSEntityFactory();
+		return Services::getInstance()->getService( 'BSEntityFactory' );
 	}
 
 	/**
@@ -157,7 +157,7 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return User
 	 */
 	protected function getMaintenanceUser() {
-		return Services::getInstance()->getBSUtilityFactory()
+		return Services::getInstance()->getService( 'BSUtilityFactory' )
 			->getMaintenanceUser()->getUser();
 	}
 

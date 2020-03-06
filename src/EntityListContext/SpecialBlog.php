@@ -60,7 +60,7 @@ class SpecialBlog extends \BlueSpice\Social\EntityListContext {
 	 */
 	public function getPreloadedEntities() {
 		$preloaded = parent::getPreloadedEntities();
-		$blog = Services::getInstance()->getBSEntityFactory()->newFromObject(
+		$blog = Services::getInstance()->getService( 'BSEntityFactory' )->newFromObject(
 			$this->getRawBlog()
 		);
 		if ( !$blog instanceof Blog ) {

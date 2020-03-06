@@ -52,7 +52,7 @@ class Blog extends \BlueSpice\SpecialPage {
 			return;
 		}
 
-		$renderer = Services::getInstance()->getBSRendererFactory()->get(
+		$renderer = Services::getInstance()->getService( 'BSRendererFactory' )->get(
 			'entitylist',
 			new Params( [ 'context' => $context ] )
 		);
@@ -69,7 +69,7 @@ class Blog extends \BlueSpice\SpecialPage {
 		if ( empty( $param ) ) {
 			return false;
 		}
-		$entity = Services::getInstance()->getBSEntityFactory()->newFromID(
+		$entity = Services::getInstance()->getService( 'BSEntityFactory' )->newFromID(
 			$param,
 			BlogEntity::TYPE
 		);

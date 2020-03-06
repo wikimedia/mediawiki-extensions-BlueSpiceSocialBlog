@@ -166,7 +166,7 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 	 * @return EntityFactory
 	 */
 	protected function getFactory() {
-		return Services::getInstance()->getBSEntityFactory();
+		return Services::getInstance()->getService( 'BSEntityFactory' );
 	}
 
 	/**
@@ -174,7 +174,7 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 	 * @return EntityConfig
 	 */
 	protected function getEntityConfig() {
-		return Services::getInstance()->getBSEntityConfigFactory()
+		return Services::getInstance()->getService( 'BSEntityConfigFactory' )
 			->newFromType( Blog::TYPE );
 	}
 
@@ -230,7 +230,7 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 	 * @return User
 	 */
 	protected function getMaintenanceUser() {
-		return \BlueSpice\Services::getInstance()->getBSUtilityFactory()
+		return \BlueSpice\Services::getInstance()->getService( 'BSUtilityFactory' )
 			->getMaintenanceUser()->getUser();
 	}
 

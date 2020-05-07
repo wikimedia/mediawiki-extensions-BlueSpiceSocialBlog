@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Patric Wirth",
 			"Metalhead64",
-			"Mglaser"
+			"Mglaser",
+			"Patric Wirth"
 		]
 	},
 	"bs-socialblog-desc": "Blog-Entität für BlueSpiceSocial",

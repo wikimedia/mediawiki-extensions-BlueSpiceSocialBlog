@@ -15,7 +15,7 @@
 	"bs-socialblog-entityblog-content-more-btn-more": "Short label for button that expands the content of the blog entry.\n{{Identical|More}}",
 	"bs-socialblog-entityblog-content-more-btn-less": "Short label for button that shrinks the content of the blog entry to a teaser.\n{{Identical|Less}}",
 	"bs-socialblog-toc-useblogteaser": "User option in [[Special:Preferences]] that allowes the user to de-/activate, that expandable teaser text is used for blog entries in the timeline",
-	"bs-socialblog-special-blog-heading": "Special page header for [[Special:Blog]] special page.\n{{notranslate}}",
+	"bs-socialblog-special-blog-heading": "{{doc-special}}\nSpecial page header for [[Special:Blog]] special page.",
 	"bs-socialblog-special-blog-heading-entry": "Special page header for [[Special:Blog]] special page when a single blog entry parameter is given as a subpage.\n* $1 - Title of the blog entry",
 	"bs-social-notifications-blog-create": "Short message when blog is created. $1 - username, $2 - user realname, $3 - Blog name",
 	"bs-social-notifications-email-blog-create-subject": "Email subject when blog is created. $1 - username, $2 - user realname, $3 - Blog name",

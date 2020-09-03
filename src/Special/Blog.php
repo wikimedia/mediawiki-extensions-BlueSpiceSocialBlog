@@ -4,10 +4,10 @@ namespace BlueSpice\Social\Blog\Special;
 
 use BlueSpice\Context;
 use BlueSpice\Renderer\Params;
-use BlueSpice\Services;
 use BlueSpice\Social\Blog\Entity\Blog as BlogEntity;
 use BlueSpice\Social\Blog\EntityListContext\SpecialBlog;
 use BlueSpice\Social\Renderer\Entity as Renderer;
+use MediaWiki\MediaWikiServices;
 
 class Blog extends \BlueSpice\SpecialPage {
 
@@ -52,7 +52,7 @@ class Blog extends \BlueSpice\SpecialPage {
 			return;
 		}
 
-		$renderer = Services::getInstance()->getService( 'BSRendererFactory' )->get(
+		$renderer = MediaWikiServices::getInstance()->getService( 'BSRendererFactory' )->get(
 			'entitylist',
 			new Params( [ 'context' => $context ] )
 		);
@@ -69,7 +69,7 @@ class Blog extends \BlueSpice\SpecialPage {
 		if ( empty( $param ) ) {
 			return false;
 		}
-		$entity = Services::getInstance()->getService( 'BSEntityFactory' )->newFromID(
+		$entity = MediaWikiServices::getInstance()->getService( 'BSEntityFactory' )->newFromID(
 			$param,
 			BlogEntity::TYPE
 		);

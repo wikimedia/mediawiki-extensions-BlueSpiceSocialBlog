@@ -4,8 +4,8 @@ $extDir = dirname( dirname( __DIR__ ) );
 
 require_once "$extDir/BlueSpiceFoundation/maintenance/BSMaintenance.php";
 
-use BlueSpice\Services;
 use BlueSpice\Social\Blog\Entity\Blog;
+use MediaWiki\MediaWikiServices;
 
 class BSMigrateBlog extends LoggedUpdateMaintenance {
 
@@ -119,7 +119,7 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return EntityFactory
 	 */
 	protected function getFactory() {
-		return Services::getInstance()->getService( 'BSEntityFactory' );
+		return MediaWikiServices::getInstance()->getService( 'BSEntityFactory' );
 	}
 
 	/**
@@ -157,7 +157,7 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return User
 	 */
 	protected function getMaintenanceUser() {
-		return Services::getInstance()->getService( 'BSUtilityFactory' )
+		return MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )
 			->getMaintenanceUser()->getUser();
 	}
 

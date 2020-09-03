@@ -9,10 +9,10 @@ use BlueSpice\Data\FieldType;
 use BlueSpice\Data\Filter\ListValue;
 use BlueSpice\Data\ReaderParams;
 use BlueSpice\EntityConfig;
-use BlueSpice\Services;
 use BlueSpice\Social\Blog\Entity\Blog;
 use BlueSpice\Social\Blog\EntityListContext\SpecialBlog as BlogContext;
 use BlueSpice\Social\Data\Entity\Store;
+use MediaWiki\MediaWikiServices;
 
 class MayFixMigratedBlogTimestamps extends Maintenance {
 
@@ -166,7 +166,7 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 	 * @return EntityFactory
 	 */
 	protected function getFactory() {
-		return Services::getInstance()->getService( 'BSEntityFactory' );
+		return MediaWikiServices::getInstance()->getService( 'BSEntityFactory' );
 	}
 
 	/**
@@ -174,7 +174,7 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 	 * @return EntityConfig
 	 */
 	protected function getEntityConfig() {
-		return Services::getInstance()->getService( 'BSEntityConfigFactory' )
+		return MediaWikiServices::getInstance()->getService( 'BSEntityConfigFactory' )
 			->newFromType( Blog::TYPE );
 	}
 
@@ -230,7 +230,7 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 	 * @return User
 	 */
 	protected function getMaintenanceUser() {
-		return \BlueSpice\Services::getInstance()->getService( 'BSUtilityFactory' )
+		return MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )
 			->getMaintenanceUser()->getUser();
 	}
 

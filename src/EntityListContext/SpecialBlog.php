@@ -2,8 +2,8 @@
 
 namespace BlueSpice\Social\Blog\EntityListContext;
 
-use BlueSpice\Services;
 use BlueSpice\Social\Blog\Entity\Blog;
+use MediaWiki\MediaWikiServices;
 use User;
 
 class SpecialBlog extends \BlueSpice\Social\EntityListContext {
@@ -60,7 +60,7 @@ class SpecialBlog extends \BlueSpice\Social\EntityListContext {
 	 */
 	public function getPreloadedEntities() {
 		$preloaded = parent::getPreloadedEntities();
-		$blog = Services::getInstance()->getService( 'BSEntityFactory' )->newFromObject(
+		$blog = MediaWikiServices::getInstance()->getService( 'BSEntityFactory' )->newFromObject(
 			$this->getRawBlog()
 		);
 		if ( !$blog instanceof Blog ) {

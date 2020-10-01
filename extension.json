@@ -67,13 +67,20 @@
 				"ext.bluespice.social.entity.text"
 			],
 			"scripts": [
-				"entities/bluespice.social.Entity.Blog.js",
-				"ui/EntityEditorBlog.js",
-				"ui/widget/BlogTextInputVisualEditor.js"
+				"entities/bluespice.social.Entity.Blog.js"
 			],
 			"messages": [
 				"bs-socialblog-entityblog-content-more-btn-more",
 				"bs-socialblog-entityblog-content-more-btn-less"
+			]
+		},
+		"ext.bluespice.social.entity.editor.blog": {
+			"dependencies": [
+				"ext.bluespice.social.entity.editor.text"
+			],
+			"scripts": [
+				"ui/EntityEditorBlog.js",
+				"ui/widget/BlogTextInputVisualEditor.js"
 			]
 		}
 	},

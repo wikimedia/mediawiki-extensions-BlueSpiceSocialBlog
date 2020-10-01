@@ -95,6 +95,16 @@ class Blog extends Text {
 
 	/**
 	 *
+	 * @return string[]
+	 */
+	protected function get_ModuleEditScripts() {
+		return array_merge( parent::get_ModuleEditScripts(), [
+			'ext.bluespice.social.entity.editor.blog'
+		] );
+	}
+
+	/**
+	 *
 	 * @return array
 	 */
 	protected function get_ModuleStyles() {

@@ -78,6 +78,14 @@ class Blog extends Text {
 	 *
 	 * @return string
 	 */
+	protected function get_EntityTemplatePage() {
+		return "BlueSpiceSocialBlog.Entity.Blog.Page";
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_Renderer() {
 		return 'socialentityblog';
 	}

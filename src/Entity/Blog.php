@@ -69,48 +69,6 @@ class Blog extends Text {
 	}
 
 	/**
-	 * Returns the blogtitle attribute
-	 * @deprecated since version 3.0.0 - use get( $attrName, $default ) instead
-	 * @return string
-	 */
-	public function getBlogTitle() {
-		wfDeprecated( __METHOD__, '3.0.0' );
-		return $this->get( static::ATTR_BLOG_TITLE, '' );
-	}
-
-	/**
-	 * Returns the teasertext attribute
-	 * @deprecated since version 3.0.0 - use get( $attrName, $default ) instead
-	 * @return string
-	 */
-	public function getTeaserText() {
-		wfDeprecated( __METHOD__, '3.0.0' );
-		return $this->get( static::ATTR_TEASER_TEXT, '' );
-	}
-
-	/**
-	 * Sets the blogtitle attribute
-	 * @deprecated since version 3.0.0 - use set( $attrName, $value ) instead
-	 * @param string $sBlogTitle
-	 * @return Blog
-	 */
-	public function setBlogTitle( $sBlogTitle ) {
-		wfDeprecated( __METHOD__, '3.0.0' );
-		return $this->set( static::ATTR_BLOG_TITLE, $sBlogTitle );
-	}
-
-	/**
-	 * Sets the teasertext attribute
-	 * @deprecated since version 3.0.0 - use set( $attrName, $value ) instead
-	 * @param string $sTeaserText
-	 * @return Blog
-	 */
-	public function setTeaserText( $sTeaserText ) {
-		wfDeprecated( __METHOD__, '3.0.0' );
-		return $this->set( static::ATTR_TEASER_TEXT, $sTeaserText );
-	}
-
-	/**
 	 * Gets the attributes formated for the api
 	 * @param array $a
 	 * @return object

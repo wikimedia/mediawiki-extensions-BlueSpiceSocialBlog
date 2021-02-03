@@ -18,7 +18,6 @@ class Blog extends \BlueSpice\SpecialPage {
 	/**
 	 *
 	 * @param string $par
-	 * @return null
 	 */
 	public function execute( $par ) {
 		$this->checkPermissions();

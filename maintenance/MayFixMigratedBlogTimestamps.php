@@ -73,9 +73,11 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 				continue;
 			}
 			$this->output( $title->getLatestRevID() );
+			$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
+			$revision = $revisionLookup->getFirstRevision( $title->toPageIdentity() );
 			$date = DateTime::createFromFormat(
 				'YmdHis',
-				$title->getEarliestRevTime()
+				$revision->getTimestamp()
 			);
 			$this->output( "\n    -Title last Rev TS: " );
 			$ts = $date->format( 'YmdHis' );
@@ -206,10 +208,13 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 			return false;
 		}
 
+		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
+		$revision = $revisionLookup->getFirstRevision( $origTitle->toPageIdentity() );
+
 		// dont use any MWTimestamp here, as they are not reliably in cmd!
 		$date = \DateTime::createFromFormat(
 			'YmdHis',
-			$origTitle->getEarliestRevTime()
+			$revision->getTimestamp()
 		);
 		$ts = $date->format( 'YmdHis' );
 		if ( !$date || !$ts ) {

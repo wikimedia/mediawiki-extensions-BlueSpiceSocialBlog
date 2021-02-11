@@ -111,7 +111,10 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return User
 	 */
 	protected function extractUser( Title $title ) {
-		return User::newFromID( $title->getFirstRevision()->getUser() );
+		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
+		$rev = $revisionLookup->getFirstRevision( $title->toPageIdentity() );
+
+		return User::newFromIdentity( $rev->getUser() );
 	}
 
 	/**
@@ -133,10 +136,13 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 			return false;
 		}
 
+		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
+		$revision = $revisionLookup->getFirstRevision( $origTitle->toPageIdentity() );
+
 		// dont use any MWTimestamp here, as they are not reliably in cmd!
 		$date = DateTime::createFromFormat(
 			'YmdHis',
-			$origTitle->getEarliestRevTime()
+			$revision->getTimestamp()
 		);
 		$ts = $date->format( 'YmdHis' );
 		if ( !$date || !$ts ) {

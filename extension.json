@@ -20,11 +20,11 @@
 					"className": "\\BlueSpice\\Social\\Blog\\Extension",
 					"extPath": "/BlueSpiceSocialBlog",
 					"status": "beta",
-					"package": "BlueSpiceSocial",
-					"configDefinitions": {
-						"BSSocialUseBlogTeaser": "\\BlueSpice\\Social\\Blog\\ConfigDefinition\\BSSocialUseBlogTeaser::getInstance"
-					}
+					"package": "BlueSpiceSocial"
 				}
+			},
+			"ConfigDefinitionRegistry": {
+				"BSSocialUseBlogTeaser": "\\BlueSpice\\Social\\Blog\\ConfigDefinition\\BSSocialUseBlogTeaser::getInstance"
 			},
 			"EntityRegistry": {
 				"blog": "\\BlueSpice\\Social\\Blog\\EntityConfig\\Blog"

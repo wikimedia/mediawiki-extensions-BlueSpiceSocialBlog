@@ -222,7 +222,7 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 		}
 
 		// hacky, hope for the best ;)
-		return $this->getDB( DB_MASTER )->update(
+		return $this->getDB( DB_PRIMARY )->update(
 			'revision',
 			[ 'rev_timestamp' => $ts ],
 			[ 'rev_id' => $title->getLatestRevID() ],

@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			")8",
 			"A Chinese Wikipedian",
+			"Ken418",
 			"Liuxinyu970226"
 		]
 	},
 	"blog": "博客",
 	"bs-socialblog-var-blogtitle": "职位",
-	"bs-socialblog-entityblog-content-more-btn-more": "更多"
+	"bs-socialblog-entityblog-content-more-btn-more": "更多",
+	"bs-socialblog-type": "博客",
+	"bs-socialblog-special-blog-heading": "博客",
+	"bs-social-notification-blog-primary-link-label": "查看博客"
 }

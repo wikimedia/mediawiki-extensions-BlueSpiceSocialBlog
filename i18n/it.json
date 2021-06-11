@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Beta16",
 			"Selven"
 		]
@@ -8,5 +9,7 @@
 	"blog": "Blog",
 	"bs-socialblog-var-blogtitle": "Titolo",
 	"bs-socialblog-entityblog-content-more-btn-more": "Altro",
-	"bs-socialblog-entityblog-content-more-btn-less": "Meno"
+	"bs-socialblog-entityblog-content-more-btn-less": "Meno",
+	"bs-socialblog-type": "Blog",
+	"bs-socialblog-special-blog-heading": "Blog"
 }

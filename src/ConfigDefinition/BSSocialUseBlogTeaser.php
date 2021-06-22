@@ -32,4 +32,12 @@ class BSSocialUseBlogTeaser extends \BlueSpice\ConfigDefinition\BooleanSetting {
 		return true;
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
+	public function getHelpMessageKey() {
+		return 'bs-socialblog-toc-useblogteaser-help';
+	}
+
 }

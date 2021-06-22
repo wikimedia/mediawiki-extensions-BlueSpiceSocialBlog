@@ -28,5 +28,6 @@
 	"bs-social-notifications-email-blog-delete-subject": "User {{GENDER:$1|$2 deleted}} blog \"$3\"",
 	"bs-social-notifications-email-blog-delete-body": "User {{GENDER:$1|$2 deleted}} blog \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 deleted}} blog \"$3\"",
-	"bs-social-notification-blog-primary-link-label": "View blog"
+	"bs-social-notification-blog-primary-link-label": "View blog",
+	"bs-socialblog-toc-useblogteaser-help": "In the blog form, users can enter a teaser text by clicking on the cogwheel symbol. If activated, this teaser text is shown on the page Special:Timeline instead of the first part of the blog entry itself."
 }

@@ -30,5 +30,6 @@
 	"bs-social-notifications-email-blog-delete-subject": "L’utilisat{{GENDER:$1|eur|rice}} $2 a supprimé le blogue « $3 »",
 	"bs-social-notifications-email-blog-delete-body": "L’utilisat{{GENDER:$1|eur|rice}} $2 a supprimé le blogue « $3 »",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|}}$2 a supprimé le blogue « $3 »",
-	"bs-social-notification-blog-primary-link-label": "Afficher le blogue"
+	"bs-social-notification-blog-primary-link-label": "Afficher le blogue",
+	"bs-socialblog-toc-useblogteaser-help": "Dans le formulaire du blog, les utilisateurs peuvent entrer un texte d’accroche en cliquant sur le symbole de la roue dentée. S’il est activé, ce texte d’accroche est affiché sur la page Special:Timeline au lieu de la première partie de l’entrée du blog elle-même."
 }

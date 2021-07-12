@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Hedda",
 			"Incelemeelemani",
 			"Sezgin İbiş"
 		]
@@ -28,5 +29,6 @@
 	"bs-social-notifications-email-blog-delete-subject": "{{GENDER:$1|$2}} kullanıcı \"$3\" blogunu sildi",
 	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|$2}} kullanıcı \"$3\" blogunu sildi",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}}, \"$3\" blogunu sildi",
-	"bs-social-notification-blog-primary-link-label": "Blogu görüntüle"
+	"bs-social-notification-blog-primary-link-label": "Blogu görüntüle",
+	"bs-socialblog-toc-useblogteaser-help": "Blog formunda kullanıcılar, dişli çark sembolüne tıklayarak bir tanıtım metni girebilir. Bu tanıtım metni etkinleştirilirse blog girişinin ilk bölümü yerine Special:Timeline sayfasında gösterilir."
 }

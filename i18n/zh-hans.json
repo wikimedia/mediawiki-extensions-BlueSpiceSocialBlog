@@ -4,6 +4,7 @@
 			")8",
 			"A Chinese Wikipedian",
 			"Ken418",
+			"Lakejason0",
 			"Liuxinyu970226"
 		]
 	},
@@ -12,5 +13,6 @@
 	"bs-socialblog-entityblog-content-more-btn-more": "更多",
 	"bs-socialblog-type": "博客",
 	"bs-socialblog-special-blog-heading": "博客",
-	"bs-social-notification-blog-primary-link-label": "查看博客"
+	"bs-social-notification-blog-primary-link-label": "查看博客",
+	"bs-socialblog-entityblog-content-more-btn-less": "更少"
 }

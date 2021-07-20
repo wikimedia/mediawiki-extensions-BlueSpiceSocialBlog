@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Romaine"
 		]
 	},
 	"blog": "Blog",
@@ -9,5 +10,7 @@
 	"bs-socialblog-var-blogtitle": "Titel",
 	"bs-socialblog-entityblog-content-more-btn-more": "Meer",
 	"bs-socialblog-entityblog-content-more-btn-less": "Minder",
-	"bs-social-notification-blog-primary-link-label": "Blog bekijken"
+	"bs-social-notification-blog-primary-link-label": "Blog bekijken",
+	"bs-socialblog-type": "Blog",
+	"bs-socialblog-special-blog-heading": "Blog"
 }

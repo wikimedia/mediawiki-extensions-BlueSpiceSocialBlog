@@ -11,5 +11,6 @@
 	"bs-socialblog-entityblog-content-more-btn-less": "덜 보기",
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
-	"bs-socialblog-entityblog-header-create": "새 블로그"
+	"bs-socialblog-entityblog-header-create": "새 블로그",
+	"bs-social-notification-blog-primary-link-label": "블로그 보기"
 }

@@ -3,13 +3,17 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Beta16",
-			"Selven"
+			"Selven",
+			"Stefano"
 		]
 	},
 	"bs-socialblog-type": "Blog",
 	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "Nuovo blog",
 	"bs-socialblog-var-blogtitle": "Titolo",
 	"bs-socialblog-entityblog-content-more-btn-more": "Altro",
 	"bs-socialblog-entityblog-content-more-btn-less": "Meno",
-	"bs-socialblog-special-blog-heading": "Blog"
+	"bs-socialblog-toc-useblogteaser": "Usa il testo del teaser per i post del blog nella barra temporale",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-social-notification-blog-primary-link-label": "Visualizza blog"
 }

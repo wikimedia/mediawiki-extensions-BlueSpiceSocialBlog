@@ -79,8 +79,7 @@
 				"ext.bluespice.social.entity.editor.text"
 			],
 			"scripts": [
-				"ui/EntityEditorBlog.js",
-				"ui/widget/BlogTextInputVisualEditor.js"
+				"ui/EntityEditorBlog.js"
 			]
 		}
 	},

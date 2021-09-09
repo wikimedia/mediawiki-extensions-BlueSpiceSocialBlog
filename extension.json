@@ -68,8 +68,7 @@
 			],
 			"scripts": [
 				"entities/bluespice.social.Entity.Blog.js",
-				"ui/EntityEditorBlog.js",
-				"ui/widget/BlogTextInputVisualEditor.js"
+				"ui/EntityEditorBlog.js"
 			],
 			"messages": [
 				"bs-socialblog-entityblog-content-more-btn-more",

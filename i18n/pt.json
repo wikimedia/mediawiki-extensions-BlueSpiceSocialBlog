@@ -28,5 +28,6 @@
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
 	"bs-social-notification-blog-primary-link-label": "Ver blogue",
 	"bs-socialblog-desc": "Entidade de blogue para BlueSpiceSocial",
-	"bs-socialblog-toc-useblogteaser": "Usar texto promocional para entradas de blogue na linha cronológica"
+	"bs-socialblog-toc-useblogteaser": "Usar texto promocional para entradas de blogue na linha cronológica",
+	"bs-socialblog-toc-useblogteaser-help": "No formulário do blogue os utilizadores podem introduzir um texto para prender a atenção, clicando o símbolo da roda dentada. Se estiver ativado, este texto será mostrado na página Special:Timeline em vez da primeira parte da própria entrada do blogue."
 }

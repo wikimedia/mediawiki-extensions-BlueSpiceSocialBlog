@@ -242,4 +242,36 @@ class Blog extends Text {
 		return $this->get( 'SocialBlogPreloadTitle' );
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
+	protected function get_CreatePermission() {
+		return 'social-blog';
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	protected function get_EditPermission() {
+		return 'social-blog';
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	protected function get_DeletePermission() {
+		return 'social-blog';
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	protected function get_CommentPermission() {
+		return 'social-blog-comment';
+	}
+
 }

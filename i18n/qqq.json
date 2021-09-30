@@ -30,5 +30,9 @@
 	"bs-social-notifications-email-blog-delete-body": "Email body message when blog is created. $1 - username, $2 - user realname, $3 - Blog name",
 	"bs-social-notifications-web-blog-delete-body": "Web message when blog is deleted. For now, its empty, because there are no more information to show than already in header message. $1 - username, $2 - user realname, $3 - Blog name",
 	"bs-social-notification-blog-primary-link-label": "Label for primary link button, leading to blog page",
-	"bs-socialblog-toc-useblogteaser-help": "Description for config variable \"BSSocialUseBlogTeaser\""
+	"bs-socialblog-toc-useblogteaser-help": "Description for config variable \"BSSocialUseBlogTeaser\"",
+	"action-social-blog": "{{doc-action|action-social-blog}}",
+	"action-social-blog-comment": "{{doc-action|social-blog-comment}}",
+	"right-social-blog": "{{doc-right|social-blog}}",
+	"right-social-blog-comment": "{{doc-right|social-blog-comment}}"
 }

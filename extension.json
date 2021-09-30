@@ -34,7 +34,26 @@
 			},
 			"NotificationRegistrationFunctions": [
 				"\\BlueSpice\\Social\\Blog\\Notification\\Registrator::registerNotifications"
-			]
+			],
+			"PermissionRegistry": {
+				"social-blog": {
+					"type": "global",
+					"roles": [
+						"editor",
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"social-blog-comment": {
+					"type": "global",
+					"roles": [
+						"commenter",
+						"editor",
+						"admin",
+						"maintenanceadmin"
+					]
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -45,6 +64,24 @@
 	"ExtensionMessagesFiles": {
 		"BlueSpiceSocialBlogAlias": "languages/Blog.alias.php"
 	},
+	"GroupPermissions": {
+		"*": {
+			"social-blog": false,
+			"social-blog-comment": false
+		},
+		"user": {
+			"social-blog": true,
+			"social-blog-comment": true
+		},
+		"sysop": {
+			"social-blog": true,
+			"social-blog-comment": true
+		}
+	},
+	"AvailableRights": [
+		"social-blog",
+		"social-blog-comment"
+	],
 	"SpecialPages": {
 		"Blog": "\\BlueSpice\\Social\\Blog\\Special\\Blog"
 	},

@@ -7,9 +7,9 @@ use MediaWiki\MediaWikiServices;
 use User;
 
 class SpecialBlog extends \BlueSpice\Social\EntityListContext {
-	const CONFIG_NAME_OUTPUT_TYPE = 'EntityListSpecialBlogOutputType';
-	const CONFIG_NAME_TYPE_ALLOWED = 'EntityListSpecialBlogTypeAllowed';
-	const CONFIG_NAME_TYPE_SELECTED = 'EntityListSpecialBlogTypeSelected';
+	public const CONFIG_NAME_OUTPUT_TYPE = 'EntityListSpecialBlogOutputType';
+	public const CONFIG_NAME_TYPE_ALLOWED = 'EntityListSpecialBlogTypeAllowed';
+	public const CONFIG_NAME_TYPE_SELECTED = 'EntityListSpecialBlogTypeSelected';
 
 	/**
 	 * Owner of the user page

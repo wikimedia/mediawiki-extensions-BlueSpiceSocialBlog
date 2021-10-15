@@ -45,10 +45,10 @@ use User;
  * @subpackage BlueSpiceSocialBlog
  */
 class Blog extends Text {
-	const TYPE = 'blog';
+	public const TYPE = 'blog';
 
-	const ATTR_BLOG_TITLE = 'blogtitle';
-	const ATTR_TEASER_TEXT = 'teasertext';
+	public const ATTR_BLOG_TITLE = 'blogtitle';
+	public const ATTR_TEASER_TEXT = 'teasertext';
 
 	/**
 	 *

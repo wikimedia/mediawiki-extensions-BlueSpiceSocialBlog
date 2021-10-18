@@ -136,15 +136,15 @@
 		}
 	},
 	"HookHandlers": {
-		"discovery-skin": {
-			"class": "\\BlueSpice\\Social\\Blog\\HookHandler\\DiscoverySkin"
+		"common-user-interface": {
+			"class": "\\BlueSpice\\Social\\Blog\\HookHandler\\CommonUserInterface"
 		}
 	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "\\BlueSpice\\Social\\Blog\\Hook\\LoadExtensionSchemaUpdates\\AddBlogMigrationMaintenanceScript::callback",
 		"SkinBuildSidebar": "\\BlueSpice\\Social\\Blog\\Hook\\SkinBuildSidebar\\AddNavigationItem::callback",
 		"BeforePageDisplay": "\\BlueSpice\\Social\\Blog\\Hook\\BeforePageDisplay\\AddResources::callback",
-		"MWStakeCommonUIRegisterSkinSlotComponents": "discovery-skin"
+		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface"
 	},
 	"manifest_version": 2
 }

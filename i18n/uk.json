@@ -29,5 +29,9 @@
 	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} блог «$3»",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 вилучив|$2 вилучила}} блог «$3»",
 	"bs-social-notification-blog-primary-link-label": "Переглянути блог",
-	"bs-socialblog-toc-useblogteaser-help": "У формі блога користувачі можуть ввести текст-тизер, натиснувши на символ шестерінку. Якщо ця функція активована, то текст-тизер відобразиться на сторінці Special:Timeline замість першої частини самого запису у блозі."
+	"bs-socialblog-toc-useblogteaser-help": "У формі блога користувачі можуть ввести текст-тизер, натиснувши на символ шестерінку. Якщо ця функція активована, то текст-тизер відобразиться на сторінці Special:Timeline замість першої частини самого запису у блозі.",
+	"action-social-blog": "створювати та редагувати блоги",
+	"action-social-blog-comment": "коментувати блоги",
+	"right-social-blog": "Створювати та редагувати блоги",
+	"right-social-blog-comment": "Коментувати блоги"
 }

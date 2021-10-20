@@ -12,5 +12,9 @@
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
 	"bs-socialblog-entityblog-header-create": "새 블로그",
-	"bs-social-notification-blog-primary-link-label": "블로그 보기"
+	"bs-social-notification-blog-primary-link-label": "블로그 보기",
+	"action-social-blog": "블로그를 만들고 편집할",
+	"action-social-blog-comment": "블로그에 의견을 달",
+	"right-social-blog": "블로그 만들기 및 편집",
+	"right-social-blog-comment": "블로그에 의견 달기"
 }

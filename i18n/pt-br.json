@@ -28,5 +28,9 @@
 	"bs-social-notifications-email-blog-delete-subject": "Usuário {{GENDER:$1|$2 excluiu}} o blog \"$3\"",
 	"bs-social-notifications-email-blog-delete-body": "Usuário {{GENDER:$1|$2 excluiu}} o blog \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 excluiu }} um blog \"$3\"",
-	"bs-social-notification-blog-primary-link-label": "Ver blog"
+	"bs-social-notification-blog-primary-link-label": "Ver blog",
+	"action-social-blog": "create and edit blogs",
+	"action-social-blog-comment": "Comentário em blogs",
+	"right-social-blog": "Criar e editar blogs",
+	"right-social-blog-comment": "Comentário em blogs"
 }

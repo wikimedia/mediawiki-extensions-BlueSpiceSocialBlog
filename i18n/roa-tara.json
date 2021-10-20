@@ -27,5 +27,9 @@
 	"bs-social-notifications-email-blog-delete-body": "L'utende {{GENDER:$1|$2 ave scangellate}} 'u blog \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 Ave scangellate}} 'u blog \"$3\"",
 	"bs-social-notification-blog-primary-link-label": "'Ndruche 'u blog",
-	"bs-socialblog-toc-useblogteaser-help": "Jndr'à 'u module d'u blog, le utinde ponne sckaffà 'nu teste teaser cazzanne sus a 'u simbole d'a rote dendate. Ce attivate, stu teste d'u teaser avène fatte 'ndurcà jndr'à pàgene Special:Timeline invece ca jndr'à prima vanne d'u messàgge d'u stesse blog."
+	"bs-socialblog-toc-useblogteaser-help": "Jndr'à 'u module d'u blog, le utinde ponne sckaffà 'nu teste teaser cazzanne sus a 'u simbole d'a rote dendate. Ce attivate, stu teste d'u teaser avène fatte 'ndurcà jndr'à pàgene Special:Timeline invece ca jndr'à prima vanne d'u messàgge d'u stesse blog.",
+	"action-social-blog": "ccrèje e cange le blog",
+	"action-social-blog-comment": "commende sus a le blog",
+	"right-social-blog": "Ccrèje e cange le blog",
+	"right-social-blog-comment": "Commende sus a le blog"
 }

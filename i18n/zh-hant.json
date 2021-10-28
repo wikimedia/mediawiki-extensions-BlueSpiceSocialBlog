@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
+			"Weather Top Wizard",
 			"一個正常人"
 		]
 	},
@@ -27,5 +28,9 @@
 	"bs-social-notifications-email-blog-delete-subject": "使用者{{GENDER:$1|$2已刪除}}部落格「$3」",
 	"bs-social-notifications-email-blog-delete-body": "使用者{{GENDER:$1|$2已刪除}}部落格「$3」",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2已刪除}}部落格「$3」",
-	"bs-social-notification-blog-primary-link-label": "檢視部落格"
+	"bs-social-notification-blog-primary-link-label": "檢視部落格",
+	"action-social-blog": "建立與編輯部落格",
+	"action-social-blog-comment": "在部落格上評論",
+	"right-social-blog": "建立與編輯部落格",
+	"right-social-blog-comment": "在部落格上評論"
 }

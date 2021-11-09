@@ -24,7 +24,8 @@
 				}
 			},
 			"ConfigDefinitionRegistry": {
-				"BSSocialUseBlogTeaser": "\\BlueSpice\\Social\\Blog\\ConfigDefinition\\BSSocialUseBlogTeaser::getInstance"
+				"BSSocialUseBlogTeaser": "\\BlueSpice\\Social\\Blog\\ConfigDefinition\\BSSocialUseBlogTeaser::getInstance",
+				"SocialBlogMainLinksBlog": "\\BlueSpice\\Social\\Blog\\ConfigDefinition\\MainLinksBlog::getInstance"
 			},
 			"EntityRegistry": {
 				"blog": "\\BlueSpice\\Social\\Blog\\EntityConfig\\Blog"
@@ -133,11 +134,17 @@
 		},
 		"SocialBlogPreloadTitle": {
 			"value": "Template:Blog"
+		},
+		"SocialBlogMainLinksBlog": {
+			"value": true,
+			"public": true,
+			"descriptionmsg": "bs-socialblog-config-mainlinks-blog-label"
 		}
 	},
 	"HookHandlers": {
 		"common-user-interface": {
-			"class": "\\BlueSpice\\Social\\Blog\\HookHandler\\CommonUserInterface"
+			"class": "\\BlueSpice\\Social\\Blog\\HookHandler\\CommonUserInterface",
+			"services": [ "ConfigFactory" ]
 		}
 	},
 	"Hooks": {

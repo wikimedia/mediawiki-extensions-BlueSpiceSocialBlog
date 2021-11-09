@@ -34,5 +34,7 @@
 	"action-social-blog": "{{doc-action|social-blog}}",
 	"action-social-blog-comment": "{{doc-action|social-blog-comment}}",
 	"right-social-blog": "{{doc-right|social-blog}}",
-	"right-social-blog-comment": "{{doc-right|social-blog-comment}}"
+	"right-social-blog-comment": "{{doc-right|social-blog-comment}}",
+	"bs-socialblog-config-mainlinks-blog-label": "Label for checkbox in config, that shows entrypoint \"Blog\" in the left navigation",
+	"bs-socialblog-config-mainlinks-blog-help": "Help message for checkbox in config, that shows entrypoint \"Blog\" in the left navigation"
 }

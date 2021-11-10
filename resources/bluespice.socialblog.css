@@ -9,7 +9,7 @@ a.bs-social-entityspawner-blog:before,
 	content: "\e904";
 }
 .bs-social-entity-content-more {
-	width: 100%;
+	width: 65%;
 	text-align: right;
 	border-top: 1px solid #3e5389;
 	margin-bottom: 10px;

@@ -8,7 +8,7 @@
 	"bs-socialblog-desc": "Blog entity for BlueSpiceSocial",
 	"bs-socialblog-type": "Blog",
 	"blog": "Blog",
-	"bs-socialblog-entityblog-header-create": "New Blog",
+	"bs-socialblog-entityblog-header-create": "Create a new blog...",
 	"bs-socialblog-entityblog-header": "[[Special:Blog/$3|$6]]",
 	"bs-socialblog-var-blogtitle": "Title",
 	"bs-socialblog-entityblog-content-more-btn-more": "More",

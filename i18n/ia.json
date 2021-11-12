@@ -31,5 +31,7 @@
 	"action-social-blog": "crear e modificar blogs",
 	"action-social-blog-comment": "commentar sur blogs",
 	"right-social-blog": "Crear e modificar blogs",
-	"right-social-blog-comment": "Commentar sur blogs"
+	"right-social-blog-comment": "Commentar sur blogs",
+	"bs-socialblog-config-mainlinks-blog-label": "Monstrar le puncto de entrata \"Blog\"",
+	"bs-socialblog-config-mainlinks-blog-help": "Monstrar le ligamine del puncto de entrata \"Blog\" in le navigation al sinistra"
 }

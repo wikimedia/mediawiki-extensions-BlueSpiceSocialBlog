@@ -8,7 +8,7 @@
 	"blog": "Блог",
 	"bs-socialblog-toc-useblogteaser-help": "В форме блога пользователи могут ввести текст-тизер, щелкнув символ шестеренки. Если эта функция активирована, то текст-тизер отобразится на странице Special:Timeline вместо первой части самой записи в блоге.",
 	"bs-socialblog-type": "Блог",
-	"bs-socialblog-entityblog-header-create": "Новый блог",
+	"bs-socialblog-entityblog-header-create": "Создать новый блог…",
 	"bs-socialblog-var-blogtitle": "Название",
 	"bs-socialblog-entityblog-content-more-btn-more": "Ещё",
 	"bs-socialblog-entityblog-content-more-btn-less": "Меньше",

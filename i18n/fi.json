@@ -9,5 +9,6 @@
 	"action-social-blog": "luoda ja muokata blogeja",
 	"action-social-blog-comment": "kommentoida blogeja",
 	"right-social-blog": "Luoda ja muokata blogeja",
-	"right-social-blog-comment": "Kommentoida blogeja"
+	"right-social-blog-comment": "Kommentoida blogeja",
+	"bs-socialblog-entityblog-header-create": "Luo uusi blogi..."
 }

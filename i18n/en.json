@@ -8,7 +8,7 @@
 	"bs-socialblog-desc": "Blog entity for BlueSpiceSocial",
 	"bs-socialblog-type": "Blog",
 	"blog": "Blog",
-	"bs-socialblog-entityblog-header-create": "New Blog",
+	"bs-socialblog-entityblog-header-create": "Create a new blog...",
 	"bs-socialblog-entityblog-header": "[[Special:Blog/$3|$6]]",
 	"bs-socialblog-var-blogtitle": "Title",
 	"bs-socialblog-entityblog-content-more-btn-more": "More",
@@ -33,5 +33,7 @@
 	"action-social-blog": "create and edit blogs",
 	"action-social-blog-comment": "comment on blogs",
 	"right-social-blog": "Create and edit blogs",
-	"right-social-blog-comment": "Comment on blogs"
+	"right-social-blog-comment": "Comment on blogs",
+	"bs-socialblog-config-mainlinks-blog-label": "Show entrypoint \"Blog\"",
+	"bs-socialblog-config-mainlinks-blog-help": "Show entrypoint \"Blog\" link in the left navigation"
 }

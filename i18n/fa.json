@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Amir1arch",
-			"Amirsara"
+			"Amirsara",
+			"Jeeputer"
 		]
 	},
 	"blog": "وبلاگ",
 	"bs-socialblog-type": "بلاگ",
-	"bs-socialblog-entityblog-header-create": "بلاگ جدید",
+	"bs-socialblog-entityblog-header-create": "ایجاد بلاگ جدید...",
 	"bs-socialblog-var-blogtitle": "عنوان",
 	"bs-socialblog-entityblog-content-more-btn-more": "بیشتر",
 	"bs-socialblog-entityblog-content-more-btn-less": "کمتر"

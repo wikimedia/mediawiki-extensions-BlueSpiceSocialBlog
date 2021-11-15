@@ -7,7 +7,7 @@
 	},
 	"bs-socialblog-type": "Блог",
 	"blog": "Блог",
-	"bs-socialblog-entityblog-header-create": "Новый блог",
+	"bs-socialblog-entityblog-header-create": "Создать новый блог…",
 	"bs-socialblog-var-blogtitle": "Название",
 	"bs-socialblog-entityblog-content-more-btn-more": "Ещё",
 	"bs-socialblog-entityblog-content-more-btn-less": "Меньше",

@@ -7,7 +7,7 @@
 	"bs-socialblog-desc": "Entitate de blog pro BlueSpiceSocial",
 	"bs-socialblog-type": "Blog",
 	"blog": "Blog",
-	"bs-socialblog-entityblog-header-create": "Nove articulo",
+	"bs-socialblog-entityblog-header-create": "Crear un nove blog…",
 	"bs-socialblog-var-blogtitle": "Titulo",
 	"bs-socialblog-entityblog-content-more-btn-more": "Plus",
 	"bs-socialblog-entityblog-content-more-btn-less": "Minus",
@@ -31,5 +31,7 @@
 	"action-social-blog": "crear e modificar blogs",
 	"action-social-blog-comment": "commentar sur blogs",
 	"right-social-blog": "Crear e modificar blogs",
-	"right-social-blog-comment": "Commentar sur blogs"
+	"right-social-blog-comment": "Commentar sur blogs",
+	"bs-socialblog-config-mainlinks-blog-label": "Monstrar le puncto de entrata \"Blog\"",
+	"bs-socialblog-config-mainlinks-blog-help": "Monstrar le ligamine del puncto de entrata \"Blog\" in le navigation al sinistra"
 }

@@ -13,7 +13,8 @@
 	"bs-socialblog-entityblog-content-more-btn-less": "Meno",
 	"bs-socialblog-type": "Blog",
 	"bs-socialblog-special-blog-heading": "Blog",
-	"bs-socialblog-entityblog-header-create": "Nuovo blog",
+	"bs-socialblog-entityblog-header-create": "Crea un nuovo blog...",
 	"bs-socialblog-toc-useblogteaser": "Usa il testo del teaser per i post del blog nella barra temporale",
-	"bs-social-notification-blog-primary-link-label": "Visualizza blog"
+	"bs-social-notification-blog-primary-link-label": "Visualizza blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1"
 }

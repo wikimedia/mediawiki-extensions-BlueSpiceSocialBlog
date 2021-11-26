@@ -19,8 +19,11 @@ OO.inheritClass( bs.social.EntityBlog, bs.social.EntityText );
 bs.social.EntityBlog.prototype.init = function() {
 	bs.social.EntityBlog.super.prototype.init.apply( this );
 	var me = this;
+	var teaserTextLength = this.data.get( 'teasertext', '' ).length;
+	var textLength = this.data.get( 'text', '' ).length;
 
-	if( !mw.config.get( 'bsBSSocialUseBlogTeaser', true ) || me.editmode || !me.exists() ) {
+	if( !mw.config.get( 'bsBSSocialUseBlogTeaser', true ) || me.editmode || !me.exists()
+		|| textLength === teaserTextLength ) {
 		this.hideMore();
 		return;
 	} else {

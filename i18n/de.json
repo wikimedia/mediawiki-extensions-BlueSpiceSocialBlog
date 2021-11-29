@@ -31,6 +31,10 @@
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 löschte}} den Blog „$3“",
 	"bs-social-notification-blog-primary-link-label": "Blog ansehen",
 	"bs-socialblog-toc-useblogteaser-help": "Im Blogformular kann über das Zahnradsymbol im Textfeld Teaser ein kurzer Text eingegeben werden. Falls aktiviert, wird der Teasertext auf der Seite Special:Timeline anstelle des ersten Teils des Blogeintrags angezeigt.",
+	"action-social-blog": "Blogs zu erstellen und zu bearbeiten",
+	"action-social-blog-comment": "Blogs zu kommentieren",
+	"right-social-blog": "Blogs erstellen und bearbeiten",
+	"right-social-blog-comment": "Blogs kommentieren",
 	"bs-socialblog-config-mainlinks-blog-label": "Einstiegspunkt \"Blog\" anzeigen",
 	"bs-socialblog-config-mainlinks-blog-help": "Einstiegspunkt \"Blog\" in der linken Navigation anzeigen"
 }

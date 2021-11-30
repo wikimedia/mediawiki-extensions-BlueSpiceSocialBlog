@@ -3,13 +3,14 @@
 		"authors": [
 			"Kly",
 			"Weather Top Wizard",
+			"Winston Sung",
 			"一個正常人"
 		]
 	},
 	"bs-socialblog-desc": "用於 BlueSpiceSocial 的部落格單元",
 	"bs-socialblog-type": "部落格",
 	"blog": "部落格",
-	"bs-socialblog-entityblog-header-create": "新部落格",
+	"bs-socialblog-entityblog-header-create": "新增網誌",
 	"bs-socialblog-var-blogtitle": "標題",
 	"bs-socialblog-entityblog-content-more-btn-more": "更多",
 	"bs-socialblog-entityblog-content-more-btn-less": "較少",

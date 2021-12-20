@@ -26,5 +26,9 @@
 	"bs-social-notifications-email-blog-delete-subject": "Brukeren {{GENDER:$1|$2}} slettet bloggen «$3»",
 	"bs-social-notifications-email-blog-delete-body": "Brukeren {{GENDER:$1|$2}} slettet bloggen «$3»",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}} slettet bloggen «$3»",
-	"bs-social-notification-blog-primary-link-label": "Vis blogg"
+	"bs-social-notification-blog-primary-link-label": "Vis blogg",
+	"action-social-blog": "opprette og redigere blogger",
+	"action-social-blog-comment": "kommentere på blogger",
+	"right-social-blog": "Opprette og redigere blogger",
+	"right-social-blog-comment": "Kommentere på blogger"
 }

@@ -20,7 +20,7 @@ bs.social.EntityBlog.prototype.init = function() {
 	bs.social.EntityBlog.super.prototype.init.apply( this );
 	var me = this;
 
-	if( !mw.config.get( 'bsBSSocialUseBlogTeaser', true ) || me.editmode || !me.exists() ) {
+	if( !mw.config.get( 'bsgBSSocialUseBlogTeaser', true ) || me.editmode || !me.exists() ) {
 		this.hideMore();
 		return;
 	} else {
@@ -63,7 +63,7 @@ bs.social.EntityBlog.prototype.contract = function() {
 	var $content = this.getEl().find( '.bs-social-entity-content' ).first();
 
 	$content.children( 'div' ).first().fadeOut( 'slow' );
-	var teaser = this.data.get( 'teasertext', '' ).replace(
+	var teaser = this.data.get( 'teasertextparsed', '' ).replace(
 		new RegExp('\r?\n','g'),
 		'<br />'
 	);

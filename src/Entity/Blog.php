@@ -34,6 +34,7 @@ use BlueSpice\Social\Entity\Text;
 use BlueSpice\Social\Parser\Input;
 use BlueSpice\Social\Parser\Teaser;
 use Message;
+use ParserOutput;
 use SpecialPage;
 use Status;
 use Title;
@@ -49,6 +50,12 @@ class Blog extends Text {
 
 	public const ATTR_BLOG_TITLE = 'blogtitle';
 	public const ATTR_TEASER_TEXT = 'teasertext';
+	public const ATTR_TEASER_TEXT_PARSED = 'teasertextparsed';
+
+	/**
+	 * @var ParserOutput|null
+	 */
+	protected $teaserParserOutput = null;
 
 	/**
 	 *
@@ -60,12 +67,53 @@ class Blog extends Text {
 		if ( $attrName === static::ATTR_TEASER_TEXT ) {
 			if ( empty( $this->attributes[static::ATTR_TEASER_TEXT] ) ) {
 				$parser = new Teaser();
+				// In case if there is no teaser - it will be created from parsed text content
+
+				// Attention!
+				// All HTML tags are stripped after \BlueSpice\Social\Parser\Input::parse() method.
+				// So, for example, to make links in teaser clickable -
+				// - teaser text should be parsed by MediaWiki parser.
 				$this->attributes[static::ATTR_TEASER_TEXT] = $parser->parse(
 					$this->get( static::ATTR_PARSED_TEXT, '' )
 				);
 			}
 		}
+
+		if ( $attrName === static::ATTR_TEASER_TEXT_PARSED ) {
+			if ( empty( $this->get( static::ATTR_TEASER_TEXT, '' ) ) ) {
+				return '';
+			}
+			// To make links in teaser clickable we should pass it to MediaWiki parser
+			// Even if teaser was created from parsed text content (which happens when no teaser was passed),
+			// it still won't contain any HTML tags.
+			if ( empty( $this->attributes[static::ATTR_TEASER_TEXT_PARSED] ) ) {
+				$this->attributes[static::ATTR_TEASER_TEXT_PARSED] = $this->getTeaserParserOutput()->getText( [
+					'enableSectionEditLinks' => false,
+					'allowTOC' => false,
+				] );
+			}
+		}
+
 		return parent::get( $attrName, $default );
+	}
+
+	/**
+	 * @return ParserOutput
+	 */
+	private function getTeaserParserOutput() {
+		if ( isset( $this->teaserParserOutput ) && $this->teaserParserOutput !== null ) {
+			return $this->teaserParserOutput;
+		}
+
+		$class = $this->getConfig()->get( 'ParserClass' );
+
+		$parser = new $class();
+		$this->teaserParserOutput = $parser->parse(
+			html_entity_decode( $this->attributes[static::ATTR_TEASER_TEXT] ),
+			$this->getTitle(),
+			$this->getParserOptions()
+		);
+		return $this->teaserParserOutput;
 	}
 
 	/**
@@ -85,6 +133,10 @@ class Blog extends Text {
 					static::ATTR_TEASER_TEXT,
 					''
 				),
+				static::ATTR_TEASER_TEXT_PARSED => $this->get(
+					static::ATTR_TEASER_TEXT_PARSED,
+					''
+				)
 			]
 		) );
 	}

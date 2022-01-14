@@ -50,7 +50,7 @@ bs.social.EntityEditorBlog.prototype.addContentFieldsetItems = function() {
 };
 
 bs.social.EntityEditorBlog.prototype.addAdvancedFieldsetItems = function() {
-	if( !mw.config.get( 'bsBSSocialUseBlogTeaser', true ) ) {
+	if( !mw.config.get( 'bsgBSSocialUseBlogTeaser', true ) ) {
 		return bs.social.EntityEditorBlog.super.prototype.addAdvancedFieldsetItems.apply(
 			this
 		);

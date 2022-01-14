@@ -30,7 +30,12 @@ class Blog extends \BlueSpice\Social\Renderer\Entity\Text {
 			return parent::render_content( $val );
 		}
 		if ( $this->getEntity()->getConfig()->get( 'BSSocialUseBlogTeaser' ) ) {
-			return nl2br( $val );
+			$teaserTextParsed = $this->getEntity()->get(
+				\BlueSpice\Social\Blog\Entity\Blog::ATTR_TEASER_TEXT_PARSED,
+				''
+			);
+
+			return nl2br( $teaserTextParsed );
 		}
 		return '';
 	}

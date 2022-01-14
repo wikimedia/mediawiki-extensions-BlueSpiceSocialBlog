@@ -22,7 +22,7 @@ bs.social.EntityBlog.prototype.init = function() {
 	var teaserText = this.data.get( 'teasertext', '' ).replace( /\s+/g, '' );
 	var text = this.data.get( 'text', '' ).replace( /\s+/g, '' );
 
-	if( !mw.config.get( 'bsBSSocialUseBlogTeaser', true ) || me.editmode || !me.exists()
+	if( !mw.config.get( 'bsgBSSocialUseBlogTeaser', true ) || me.editmode || !me.exists()
 		|| text.length === teaserText.length ) {
 		this.hideMore();
 		return;
@@ -66,7 +66,7 @@ bs.social.EntityBlog.prototype.contract = function() {
 	var $content = this.getEl().find( '.bs-social-entity-content' ).first();
 
 	$content.children( 'div' ).first().fadeOut( 'slow' );
-	var teaser = this.data.get( 'teasertext', '' ).replace(
+	var teaser = this.data.get( 'teasertextparsed', '' ).replace(
 		new RegExp('\r?\n','g'),
 		'<br />'
 	);

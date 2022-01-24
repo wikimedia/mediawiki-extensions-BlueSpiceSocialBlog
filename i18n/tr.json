@@ -5,13 +5,15 @@
 			"Hedda",
 			"Incelemeelemani",
 			"Melissadilara",
-			"Sezgin İbiş"
+			"Sezgin İbiş",
+			"Can",
+			"SaldırganSincap"
 		]
 	},
 	"bs-socialblog-desc": "BlueSpiceSocial için blog varlığı",
 	"bs-socialblog-type": "Blog",
 	"blog": "Blog",
-	"bs-socialblog-entityblog-header-create": "Yeni Blog",
+	"bs-socialblog-entityblog-header-create": "Yeni bir blog oluştur...",
 	"bs-socialblog-var-blogtitle": "Başlık",
 	"bs-socialblog-entityblog-content-more-btn-more": "Daha fazla",
 	"bs-socialblog-entityblog-content-more-btn-less": "Daha az",
@@ -32,5 +34,7 @@
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}}, \"$3\" blogunu sildi",
 	"bs-social-notification-blog-primary-link-label": "Blogu görüntüle",
 	"bs-socialblog-toc-useblogteaser-help": "Blog formunda kullanıcılar, dişli çark sembolüne tıklayarak bir tanıtım metni girebilir. Bu tanıtım metni etkinleştirilirse blog girişinin ilk bölümü yerine Special:Timeline sayfasında gösterilir.",
-	"action-social-blog-comment": "blogda yorumla"
+	"action-social-blog-comment": "blogda yorumla",
+	"right-social-blog": "Blog oluştur ve düzenle",
+	"right-social-blog-comment": "Bloglardaki yorumlar"
 }

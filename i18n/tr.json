@@ -34,6 +34,7 @@
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}}, \"$3\" blogunu sildi",
 	"bs-social-notification-blog-primary-link-label": "Blogu görüntüle",
 	"bs-socialblog-toc-useblogteaser-help": "Blog formunda kullanıcılar, dişli çark sembolüne tıklayarak bir tanıtım metni girebilir. Bu tanıtım metni etkinleştirilirse blog girişinin ilk bölümü yerine Special:Timeline sayfasında gösterilir.",
+	"action-social-blog": "blog oluştur ve düzenle",
 	"action-social-blog-comment": "blogda yorumla",
 	"right-social-blog": "Blog oluştur ve düzenle",
 	"right-social-blog-comment": "Bloglardaki yorumlar"

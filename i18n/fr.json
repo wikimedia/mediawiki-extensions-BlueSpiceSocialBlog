@@ -35,7 +35,7 @@
 	"action-social-blog": "créer et modifier les blogues",
 	"action-social-blog-comment": "commentaire sur les blogues",
 	"right-social-blog": "Créer et modifier les blogues",
-	"right-social-blog-comment": "Commentaire sur les blogs",
-	"bs-socialblog-config-mainlinks-blog-label": "Afficher le point d’entrée « Blog »",
-	"bs-socialblog-config-mainlinks-blog-help": "Afficher le lien du point d’entrée « Blog » dans la navigation à gauche"
+	"right-social-blog-comment": "Commentaire sur les blogues",
+	"bs-socialblog-config-mainlinks-blog-label": "Afficher le point d’entrée « Blogue »",
+	"bs-socialblog-config-mainlinks-blog-help": "Afficher le lien du point d’entrée « Blogue » dans la navigation à gauche"
 }

@@ -3,6 +3,7 @@
 		"authors": [
 			"DDPAT",
 			"Piramidion",
+			"Samflint",
 			"Ата"
 		]
 	},
@@ -33,5 +34,7 @@
 	"action-social-blog": "створювати та редагувати блоги",
 	"action-social-blog-comment": "коментувати блоги",
 	"right-social-blog": "Створювати та редагувати блоги",
-	"right-social-blog-comment": "Коментувати блоги"
+	"right-social-blog-comment": "Коментувати блоги",
+	"bs-socialblog-config-mainlinks-blog-label": "Показати точку входу «Блог»",
+	"bs-socialblog-config-mainlinks-blog-help": "Показати посилання «Блог» в навігаційній панелі ліворуч"
 }

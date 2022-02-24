@@ -26,5 +26,6 @@
 	"bs-social-notifications-email-blog-delete-subject": "Gebruiker {{GENDER:$1|$2}} verwijderde blog \"$3\"",
 	"bs-social-notifications-email-blog-delete-body": "Gebruiker {{GENDER:$1|$2}} verwijderde blog \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}} verwijderde blog \"$3\"",
-	"bs-social-notification-blog-primary-link-label": "Blog bekijken"
+	"bs-social-notification-blog-primary-link-label": "Blog bekijken",
+	"action-social-blog-comment": "reageren op blogs"
 }

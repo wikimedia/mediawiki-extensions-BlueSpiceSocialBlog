@@ -28,7 +28,8 @@
 				"SocialBlogMainLinksBlog": "\\BlueSpice\\Social\\Blog\\ConfigDefinition\\MainLinksBlog::getInstance"
 			},
 			"EntityRegistry": {
-				"blog": "\\BlueSpice\\Social\\Blog\\EntityConfig\\Blog"
+				"blog": "\\BlueSpice\\Social\\Blog\\EntityConfig\\Blog",
+				"groupblog": "\\BlueSpice\\Social\\Blog\\EntityConfig\\GroupBlog"
 			},
 			"RendererRegistry": {
 				"socialentityblog": "\\BlueSpice\\Social\\Blog\\Renderer\\Entity\\Blog::factory"
@@ -118,6 +119,22 @@
 			],
 			"scripts": [
 				"ui/EntityEditorBlog.js"
+			]
+		},
+		"ext.bluespice.social.entity.groupblog": {
+			"dependencies": [
+				"ext.bluespice.social.entity.blog"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.GroupBlog.js"
+			]
+		},
+		"ext.bluespice.social.entity.editor.groupblog": {
+			"dependencies": [
+				"ext.bluespice.social.entity.editor.blog"
+			],
+			"scripts": [
+				"ui/EntityEditorGroupBlog.js"
 			]
 		}
 	},

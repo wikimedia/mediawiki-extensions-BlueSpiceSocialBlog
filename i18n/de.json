@@ -36,5 +36,7 @@
 	"action-social-blog": "Blogs zu erstellen und zu bearbeiten",
 	"action-social-blog-comment": "Blogs zu kommentieren",
 	"right-social-blog": "Blogs erstellen und bearbeiten",
-	"right-social-blog-comment": "Blogs kommentieren"
+	"right-social-blog-comment": "Blogs kommentieren",
+	"bs-socialblog-type-groupblog": "Gruppen Blog",
+	"bs-socialblog-groupblog-permission-error": "Der Benutzer darf die Aktion nicht ausführen"
 }

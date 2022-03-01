@@ -3,7 +3,8 @@
 		"authors": [
 			"Mainframe98",
 			"McDutchie",
-			"Romaine"
+			"Romaine",
+			"Rots61"
 		]
 	},
 	"bs-socialblog-type": "Blog",
@@ -27,5 +28,7 @@
 	"bs-social-notifications-email-blog-delete-body": "Gebruiker {{GENDER:$1|$2}} verwijderde blog \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}} verwijderde blog \"$3\"",
 	"bs-social-notification-blog-primary-link-label": "Blog bekijken",
-	"action-social-blog-comment": "reageren op blogs"
+	"action-social-blog-comment": "reageren op blogs",
+	"right-social-blog": "Blogs aanmaken en bewerken",
+	"right-social-blog-comment": "Reageren op blogs"
 }

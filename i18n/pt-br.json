@@ -3,13 +3,14 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Juan90264"
 		]
 	},
 	"bs-socialblog-desc": "Entidade de blog para BlueSpiceSocial",
 	"bs-socialblog-type": "Blog",
 	"blog": "Blog",
-	"bs-socialblog-entityblog-header-create": "Novo blog",
+	"bs-socialblog-entityblog-header-create": "Criar um novo blog...",
 	"bs-socialblog-var-blogtitle": "Título",
 	"bs-socialblog-entityblog-content-more-btn-more": "Mais",
 	"bs-socialblog-entityblog-content-more-btn-less": "Menos",

@@ -7,7 +7,7 @@
 	"blog": "Blogg",
 	"bs-socialblog-desc": "Bloggentitet for BlueSpiceSocial",
 	"bs-socialblog-type": "Blogg",
-	"bs-socialblog-entityblog-header-create": "Ny blogg",
+	"bs-socialblog-entityblog-header-create": "Opprett en ny blogg …",
 	"bs-socialblog-var-blogtitle": "Tittel",
 	"bs-socialblog-entityblog-content-more-btn-more": "Mer",
 	"bs-socialblog-entityblog-content-more-btn-less": "Mindre",
@@ -26,5 +26,9 @@
 	"bs-social-notifications-email-blog-delete-subject": "Brukeren {{GENDER:$1|$2}} slettet bloggen «$3»",
 	"bs-social-notifications-email-blog-delete-body": "Brukeren {{GENDER:$1|$2}} slettet bloggen «$3»",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}} slettet bloggen «$3»",
-	"bs-social-notification-blog-primary-link-label": "Vis blogg"
+	"bs-social-notification-blog-primary-link-label": "Vis blogg",
+	"action-social-blog": "opprette og redigere blogger",
+	"action-social-blog-comment": "kommentere på blogger",
+	"right-social-blog": "Opprette og redigere blogger",
+	"right-social-blog-comment": "Kommentere på blogger"
 }

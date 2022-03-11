@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
+			"Ice bulldog",
 			"Piramidion",
+			"Samflint",
 			"Ата"
 		]
 	},
 	"blog": "Блог",
 	"bs-socialblog-type": "Блог",
-	"bs-socialblog-entityblog-header-create": "Новий блог",
+	"bs-socialblog-entityblog-header-create": "Створити новий блог…",
 	"bs-socialblog-var-blogtitle": "Назва",
 	"bs-socialblog-entityblog-content-more-btn-more": "Більше",
 	"bs-socialblog-entityblog-content-more-btn-less": "Менше",
@@ -33,5 +35,7 @@
 	"action-social-blog": "створювати та редагувати блоги",
 	"action-social-blog-comment": "коментувати блоги",
 	"right-social-blog": "Створювати та редагувати блоги",
-	"right-social-blog-comment": "Коментувати блоги"
+	"right-social-blog-comment": "Коментувати блоги",
+	"bs-socialblog-config-mainlinks-blog-label": "Показати точку входу «Блог»",
+	"bs-socialblog-config-mainlinks-blog-help": "Показати посилання «Блог» в навігаційній панелі ліворуч"
 }

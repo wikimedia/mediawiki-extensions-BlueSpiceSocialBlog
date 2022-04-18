@@ -39,5 +39,5 @@
 	"bs-socialblog-config-mainlinks-blog-label": "Afficher le point d’entrée « Blogue »",
 	"bs-socialblog-config-mainlinks-blog-help": "Afficher le lien du point d’entrée « Blogue » dans la navigation à gauche",
 	"bs-socialblog-type-groupblog": "Blogue de groupe",
-	"bs-socialblog-groupblog-permission-error": "L’utilisateur n’est pas autorisé à effectuer l’action"
+	"bs-socialblog-groupblog-permission-error": "L’utilisateur n’est pas autorisé à effectuer cette action"
 }

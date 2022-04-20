@@ -35,5 +35,7 @@
 	"right-social-blog": "Criar e editar blogues",
 	"right-social-blog-comment": "Comentar blogues",
 	"bs-socialblog-config-mainlinks-blog-label": "Mostrar o ponto de entrada \"Blogue\"",
-	"bs-socialblog-config-mainlinks-blog-help": "Mostrar hiperligação do ponto de entrada \"Blogue\" na navegação à esquerda"
+	"bs-socialblog-config-mainlinks-blog-help": "Mostrar hiperligação do ponto de entrada \"Blogue\" na navegação à esquerda",
+	"bs-socialblog-type-groupblog": "Blogue de grupo",
+	"bs-socialblog-groupblog-permission-error": "O utilizador não tem permissão para executar a operação"
 }

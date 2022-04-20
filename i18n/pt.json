@@ -9,7 +9,7 @@
 	"bs-socialblog-desc": "Entidade de blogue para BlueSpiceSocial",
 	"bs-socialblog-type": "Blogue",
 	"blog": "Blogue",
-	"bs-socialblog-entityblog-header-create": "Blogue novo",
+	"bs-socialblog-entityblog-header-create": "Criar um blogue novo...",
 	"bs-socialblog-var-blogtitle": "Título",
 	"bs-socialblog-entityblog-content-more-btn-more": "Mais",
 	"bs-socialblog-entityblog-content-more-btn-less": "Menos",
@@ -29,5 +29,13 @@
 	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
 	"bs-social-notification-blog-primary-link-label": "Ver blogue",
-	"bs-socialblog-toc-useblogteaser-help": "No formulário do blogue os utilizadores podem introduzir um texto para prender a atenção, clicando o símbolo da roda dentada. Se estiver ativado, este texto será mostrado na página Special:Timeline em vez da primeira parte da própria entrada do blogue."
+	"bs-socialblog-toc-useblogteaser-help": "No formulário do blogue os utilizadores podem introduzir um texto para prender a atenção, clicando o símbolo da roda dentada. Se estiver ativado, este texto será mostrado na página Special:Timeline em vez da primeira parte da própria entrada do blogue.",
+	"action-social-blog": "criar e editar blogues",
+	"action-social-blog-comment": "comentar blogues",
+	"right-social-blog": "Criar e editar blogues",
+	"right-social-blog-comment": "Comentar blogues",
+	"bs-socialblog-config-mainlinks-blog-label": "Mostrar o ponto de entrada \"Blogue\"",
+	"bs-socialblog-config-mainlinks-blog-help": "Mostrar hiperligação do ponto de entrada \"Blogue\" na navegação à esquerda",
+	"bs-socialblog-type-groupblog": "Blogue de grupo",
+	"bs-socialblog-groupblog-permission-error": "O utilizador não tem permissão para executar a operação"
 }

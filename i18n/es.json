@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Macofe"
 		]
@@ -12,5 +13,14 @@
 	"bs-socialblog-entityblog-content-more-btn-less": "Menos",
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-social-notification-blog-primary-link-label": "Ver blog",
-	"bs-socialblog-special-blog-heading-entry": "Blog/$1"
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-socialblog-entityblog-header-create": "Crear un nuevo blog...",
+	"action-social-blog": "crear y editar blogs",
+	"action-social-blog-comment": "comentar en los blogs",
+	"right-social-blog": "Crear y editar blogs",
+	"right-social-blog-comment": "Comentarios en los blogs",
+	"bs-socialblog-config-mainlinks-blog-label": "Mostrar punto de entrada \"Blog\"",
+	"bs-socialblog-config-mainlinks-blog-help": "Mostrar el enlace \"Blog\" en la navegación izquierda",
+	"bs-socialblog-type-groupblog": "Blog del grupo",
+	"bs-socialblog-groupblog-permission-error": "El usuario no puede realizar la acción"
 }

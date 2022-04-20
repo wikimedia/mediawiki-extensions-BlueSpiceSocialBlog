@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"MathXplore",
 			"Omotecho",
 			"Otokoume"
 		]
 	},
 	"blog": "ブログ",
-	"bs-socialblog-var-blogtitle": "ページ名"
+	"bs-socialblog-var-blogtitle": "ページ名",
+	"bs-socialblog-groupblog-permission-error": "利用者はアクションを実行することを許可されていません"
 }

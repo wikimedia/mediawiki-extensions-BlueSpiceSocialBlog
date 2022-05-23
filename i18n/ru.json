@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
-			"Mailman"
+			"Mailman",
+			"Ice bulldog",
+			"Pacha Tchernof"
 		]
 	},
-	"blog": "Блог",
-	"bs-socialblog-toc-useblogteaser-help": "В форме блога пользователи могут ввести текст-тизер, щелкнув символ шестеренки. Если эта функция активирована, то текст-тизер отобразится на странице Special:Timeline вместо первой части самой записи в блоге.",
 	"bs-socialblog-type": "Блог",
+	"blog": "Блог",
 	"bs-socialblog-entityblog-header-create": "Создать новый блог…",
 	"bs-socialblog-var-blogtitle": "Название",
 	"bs-socialblog-entityblog-content-more-btn-more": "Ещё",
@@ -26,5 +27,6 @@
 	"bs-social-notifications-email-blog-delete-subject": "Участник {{GENDER:$1|$2 удалил}} блог «$3»",
 	"bs-social-notifications-email-blog-delete-body": "Участник {{GENDER:$1|$2 удалил}} блог «$3»",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 удалил}} блог «$3»",
-	"bs-social-notification-blog-primary-link-label": "Просмотр блога"
+	"bs-social-notification-blog-primary-link-label": "Посмотреть блог",
+	"bs-socialblog-toc-useblogteaser-help": "В форме блога пользователи могут ввести текст-тизер, щелкнув символ шестеренки. Если эта функция активирована, то текст-тизер отобразится на странице Special:Timeline вместо первой части самой записи в блоге."
 }

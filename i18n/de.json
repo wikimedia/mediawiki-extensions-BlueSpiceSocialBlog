@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"Metalhead64",
 			"Mglaser",
 			"Patric Wirth",
-			"Umherirrender",
-			"Brettchenweber"
+			"Umherirrender"
 		]
 	},
 	"bs-socialblog-desc": "Blog-Entität für BlueSpiceSocial",

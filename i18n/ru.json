@@ -3,7 +3,8 @@
 		"authors": [
 			"DDPAT",
 			"Ice bulldog",
-			"Mailman"
+			"Mailman",
+			"Pacha Tchernof"
 		]
 	},
 	"blog": "Блог",
@@ -27,5 +28,5 @@
 	"bs-social-notifications-email-blog-delete-subject": "Участник {{GENDER:$1|$2 удалил}} блог «$3»",
 	"bs-social-notifications-email-blog-delete-body": "Участник {{GENDER:$1|$2 удалил}} блог «$3»",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 удалил}} блог «$3»",
-	"bs-social-notification-blog-primary-link-label": "Просмотр блога"
+	"bs-social-notification-blog-primary-link-label": "Посмотреть блог"
 }

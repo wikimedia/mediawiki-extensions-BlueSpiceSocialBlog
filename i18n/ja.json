@@ -3,10 +3,13 @@
 		"authors": [
 			"MathXplore",
 			"Omotecho",
-			"Otokoume"
+			"Otokoume",
+			"Shirayuki"
 		]
 	},
 	"blog": "ブログ",
 	"bs-socialblog-var-blogtitle": "ページ名",
-	"bs-socialblog-groupblog-permission-error": "利用者はアクションを実行することを許可されていません"
+	"bs-socialblog-groupblog-permission-error": "利用者はアクションを実行することを許可されていません",
+	"action-social-blog": "ブログの作成/編集",
+	"right-social-blog": "ブログを作成/編集"
 }

@@ -241,5 +241,5 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 
 }
 
-$maintClass = 'MayFixMigratedBlogTimestamps';
+$maintClass = MayFixMigratedBlogTimestamps::class;
 require_once RUN_MAINTENANCE_IF_MAIN;

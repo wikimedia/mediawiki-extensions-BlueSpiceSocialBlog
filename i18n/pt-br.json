@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Felipe L. Ewald",
@@ -30,8 +31,13 @@
 	"bs-social-notifications-email-blog-delete-body": "Usuário {{GENDER:$1|$2 excluiu}} o blog \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 excluiu }} um blog \"$3\"",
 	"bs-social-notification-blog-primary-link-label": "Ver blog",
+	"bs-socialblog-toc-useblogteaser-help": "No formulário do blog, os usuários podem inserir um texto clicando no símbolo da roda dentada. Se ativado, este texto é mostrado na página Special:Timeline em vez da primeira parte da entrada do blog em si.",
 	"action-social-blog": "create and edit blogs",
 	"action-social-blog-comment": "Comentário em blogs",
 	"right-social-blog": "Criar e editar blogs",
-	"right-social-blog-comment": "Comentário em blogs"
+	"right-social-blog-comment": "Comentário em blogs",
+	"bs-socialblog-config-mainlinks-blog-label": "Mostrar o ponto de entrada \"Blog\"",
+	"bs-socialblog-config-mainlinks-blog-help": "Mostrar hiperligação do ponto de entrada \"Blog\" na navegação à esquerda",
+	"bs-socialblog-type-groupblog": "Blog de grupo",
+	"bs-socialblog-groupblog-permission-error": "O usuário não tem permissão para executar a operação"
 }

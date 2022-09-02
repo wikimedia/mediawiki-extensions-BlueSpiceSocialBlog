@@ -9,6 +9,9 @@ use MediaWiki\MediaWikiServices;
 
 class BSMigrateBlog extends LoggedUpdateMaintenance {
 
+	/** @var MediaWikiServices */
+	private $services = null;
+
 	public function __construct() {
 		parent::__construct();
 		// we hope, that the default blog namespace was used or the current blog
@@ -25,6 +28,7 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 			$wgExtraNamespaces[NS_BLOG_TALK] = 'Blog_talk';
 			$GLOBALS['bsgSystemNamespaces'][1503] = 'NS_BLOG_TALK';
 		}
+		$this->services = MediaWikiServices::getInstance();
 	}
 
 	protected $data = [];
@@ -111,10 +115,11 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return User
 	 */
 	protected function extractUser( Title $title ) {
-		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
+		$revisionLookup = $this->services->getRevisionLookup();
 		$rev = $revisionLookup->getFirstRevision( $title->toPageIdentity() );
 
-		return User::newFromIdentity( $rev->getUser() );
+		return $this->services->getUserFactory()
+			->newFromID( $rev->getUser() );
 	}
 
 	/**
@@ -122,7 +127,7 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return EntityFactory
 	 */
 	protected function getFactory() {
-		return MediaWikiServices::getInstance()->getService( 'BSEntityFactory' );
+		return $this->services->getService( 'BSEntityFactory' );
 	}
 
 	/**
@@ -163,7 +168,7 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return User
 	 */
 	protected function getMaintenanceUser() {
-		return MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )
+		return $this->services->getService( 'BSUtilityFactory' )
 			->getMaintenanceUser()->getUser();
 	}
 

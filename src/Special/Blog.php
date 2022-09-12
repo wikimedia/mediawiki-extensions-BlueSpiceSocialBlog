@@ -7,7 +7,6 @@ use BlueSpice\Renderer\Params;
 use BlueSpice\Social\Blog\Entity\Blog as BlogEntity;
 use BlueSpice\Social\Blog\EntityListContext\SpecialBlog;
 use BlueSpice\Social\Renderer\Entity as Renderer;
-use MediaWiki\MediaWikiServices;
 
 class Blog extends \BlueSpice\SpecialPage {
 
@@ -51,7 +50,7 @@ class Blog extends \BlueSpice\SpecialPage {
 			return;
 		}
 
-		$renderer = MediaWikiServices::getInstance()->getService( 'BSRendererFactory' )->get(
+		$renderer = $this->services->getService( 'BSRendererFactory' )->get(
 			'entitylist',
 			new Params( [ 'context' => $context ] )
 		);
@@ -68,7 +67,7 @@ class Blog extends \BlueSpice\SpecialPage {
 		if ( empty( $param ) ) {
 			return false;
 		}
-		$entity = MediaWikiServices::getInstance()->getService( 'BSEntityFactory' )->newFromID(
+		$entity = $this->services->getService( 'BSEntityFactory' )->newFromID(
 			$param,
 			BlogEntity::TYPE
 		);

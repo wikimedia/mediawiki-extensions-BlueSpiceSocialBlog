@@ -62,14 +62,6 @@ class Blog extends Text {
 	 *
 	 * @return string
 	 */
-	protected function get_ParserClass() {
-		return 'Parser';
-	}
-
-	/**
-	 *
-	 * @return string
-	 */
 	protected function get_EntityTemplateDefault() {
 		return "BlueSpiceSocialBlog.Entity.Blog.Default";
 	}

@@ -105,9 +105,7 @@ class Blog extends Text {
 			return $this->teaserParserOutput;
 		}
 
-		$class = $this->getConfig()->get( 'ParserClass' );
-
-		$parser = new $class();
+		$parser = $this->parserFactory->create();
 		$this->teaserParserOutput = $parser->parse(
 			html_entity_decode( $this->attributes[static::ATTR_TEASER_TEXT] ),
 			$this->getTitle(),

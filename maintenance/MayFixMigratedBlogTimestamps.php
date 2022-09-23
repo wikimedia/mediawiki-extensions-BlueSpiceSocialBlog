@@ -53,6 +53,7 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 
 		$this->readData();
 		$this->output( count( $this->data ) . " blogs\n" );
+		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
 		foreach ( $this->data as $articleId => $blog ) {
 			$title = Title::newFromRow( $blog );
 			$this->output( "\n '{$title->getText()}': " );
@@ -73,11 +74,10 @@ class MayFixMigratedBlogTimestamps extends Maintenance {
 				continue;
 			}
 			$this->output( $title->getLatestRevID() );
-			$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
-			$revision = $revisionLookup->getFirstRevision( $title->toPageIdentity() );
+			$firstRev = $revisionLookup->getFirstRevision( $title->toPageIdentity() );
 			$date = DateTime::createFromFormat(
 				'YmdHis',
-				$revision->getTimestamp()
+				$firstRev->getTimestamp()
 			);
 			$this->output( "\n    -Title last Rev TS: " );
 			$ts = $date->format( 'YmdHis' );

@@ -115,11 +115,11 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 	 * @return User
 	 */
 	protected function extractUser( Title $title ) {
-		$revisionLookup = $this->services->getRevisionLookup();
-		$rev = $revisionLookup->getFirstRevision( $title->toPageIdentity() );
+		$firstRev = $this->services->getRevisionLookup()
+			->getFirstRevision( $title->toPageIdentity() );
 
 		return $this->services->getUserFactory()
-			->newFromID( $rev->getUser() );
+			->newFromID( $firstRev->getUser()->getId() );
 	}
 
 	/**

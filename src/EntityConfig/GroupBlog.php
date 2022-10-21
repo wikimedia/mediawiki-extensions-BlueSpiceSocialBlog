@@ -2,9 +2,9 @@
 
 namespace BlueSpice\Social\Blog\EntityConfig;
 
-use BlueSpice\Data\FieldType;
 use BlueSpice\Social\Blog\Entity\GroupBlog as Entity;
 use BlueSpice\Social\Data\Entity\Schema;
+use MWStake\MediaWiki\Component\DataStore\FieldType;
 
 class GroupBlog extends Blog {
 

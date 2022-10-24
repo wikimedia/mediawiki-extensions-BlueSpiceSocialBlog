@@ -5,8 +5,11 @@
 		]
 	},
 	"blog": "Blog",
-	"bs-socialblog-entityblog-header-create": "Ny blog",
+	"bs-socialblog-entityblog-header-create": "Opret en ny blog...",
 	"bs-socialblog-var-blogtitle": "Titel",
 	"bs-socialblog-entityblog-content-more-btn-more": "Mere",
-	"bs-socialblog-entityblog-content-more-btn-less": "Mindre"
+	"bs-socialblog-entityblog-content-more-btn-less": "Mindre",
+	"bs-socialblog-type": "Blog",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1"
 }

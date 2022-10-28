@@ -194,9 +194,10 @@ class Blog extends Text {
 		if ( !$status->isOK() ) {
 			return $status;
 		}
+
+		$teaser = new Teaser();
 		$this->set( static::ATTR_TEASER_TEXT,
-			$parser->parse( $this->get( static::ATTR_TEASER_TEXT, '' ) )
-		);
+			$teaser->parse( $this->get( static::ATTR_PARSED_TEXT, '' ) ) );
 		return $status;
 	}
 

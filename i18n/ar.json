@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
 		]
@@ -27,5 +28,14 @@
 	"bs-social-notifications-email-blog-delete-subject": "{{GENDER:$1|حذف $2|حذفت $2}} المدونة \"$3\"",
 	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|حذف $2|حذفت $2}} المدونة \"$3\"",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|حذف $2|حذفت $2}} المدونة \"$3\"",
-	"bs-social-notification-blog-primary-link-label": "عرض المدونة"
+	"bs-social-notification-blog-primary-link-label": "عرض المدونة",
+	"bs-socialblog-toc-useblogteaser-help": "في نموذج المدونة ، يمكن للمستخدمين إدخال نص تشويقي بالنقر فوق رمز العجلة المسننة. في حالة التنشيط ، يظهر نص الجملة المحفزة هذا في الصفحة Special: Timeline بدلاً من الجزء الأول من إدخال المدونة نفسه.",
+	"action-social-blog": "إنشاء وتحرير المدونات",
+	"action-social-blog-comment": "التعليق على المدونات",
+	"right-social-blog": "إنشاء وتحرير المدونات",
+	"right-social-blog-comment": "التعليق على المدونات",
+	"bs-socialblog-config-mainlinks-blog-label": "إظهار \"مدونة\" نقطة الدخول",
+	"bs-socialblog-config-mainlinks-blog-help": "إظهار ارتباط \"مدونة\" نقطة الدخول في شريط التنقل الأيمن",
+	"bs-socialblog-type-groupblog": "مدونة المجموعة",
+	"bs-socialblog-groupblog-permission-error": "المستخدم غير مسموح له بأداء العمل"
 }

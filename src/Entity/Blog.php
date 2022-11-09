@@ -190,14 +190,15 @@ class Blog extends Text {
 				$this->getVarMessage( static::ATTR_BLOG_TITLE )->plain()
 			) );
 		}
+		$teaser = new Teaser();
+		$this->set( static::ATTR_TEASER_TEXT,
+			$teaser->parse( $this->get( static::ATTR_PARSED_TEXT, '' ) )
+		);
+
 		$status = parent::save( $user, $options );
 		if ( !$status->isOK() ) {
 			return $status;
 		}
-
-		$teaser = new Teaser();
-		$this->set( static::ATTR_TEASER_TEXT,
-			$teaser->parse( $this->get( static::ATTR_PARSED_TEXT, '' ) ) );
 		return $status;
 	}
 

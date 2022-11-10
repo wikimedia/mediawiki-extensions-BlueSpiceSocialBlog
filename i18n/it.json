@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Beta16",
+			"GpieroMW",
 			"Selven",
 			"Stefano"
 		]
@@ -16,5 +17,6 @@
 	"bs-socialblog-toc-useblogteaser": "Usa il testo del teaser per i post del blog nella barra temporale",
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "Utente {{GENDER:$1|$2 ha creato}} nuovo blog \"$3\"",
 	"bs-social-notification-blog-primary-link-label": "Visualizza blog"
 }

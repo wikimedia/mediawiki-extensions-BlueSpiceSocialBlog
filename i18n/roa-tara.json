@@ -7,7 +7,7 @@
 	"bs-socialblog-desc": "Endità d'u blog pe BlueSpiceSocial",
 	"bs-socialblog-type": "Blog",
 	"blog": "Blog",
-	"bs-socialblog-entityblog-header-create": "Blog nuève",
+	"bs-socialblog-entityblog-header-create": "Ccreje 'nu blog nuéve...",
 	"bs-socialblog-var-blogtitle": "Titole",
 	"bs-socialblog-entityblog-content-more-btn-more": "De cchiù",
 	"bs-socialblog-entityblog-content-more-btn-less": "De mene",
@@ -31,5 +31,9 @@
 	"action-social-blog": "ccrèje e cange le blog",
 	"action-social-blog-comment": "commende sus a le blog",
 	"right-social-blog": "Ccrèje e cange le blog",
-	"right-social-blog-comment": "Commende sus a le blog"
+	"right-social-blog-comment": "Commende sus a le blog",
+	"bs-socialblog-config-mainlinks-blog-label": "Fà 'ndrucà 'u punde de trasute d'u \"Blog\"",
+	"bs-socialblog-config-mainlinks-blog-help": "Fà 'ndrucà 'u punde de trasute d'u collegamende \"Blog\" jndr'à barre de sinistre de navigazzione",
+	"bs-socialblog-type-groupblog": "Gruppe blog",
+	"bs-socialblog-groupblog-permission-error": "L'utende non ge pò ffà st'azione"
 }

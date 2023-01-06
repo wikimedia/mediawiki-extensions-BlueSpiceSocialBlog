@@ -4,5 +4,6 @@
 			"Eleassar"
 		]
 	},
-	"bs-socialblog-var-blogtitle": "Naslov"
+	"bs-socialblog-var-blogtitle": "Naslov",
+	"bs-socialblog-entityblog-header-create": "Ustvari nov blog ..."
 }

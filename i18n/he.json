@@ -6,8 +6,14 @@
 			"Steeve815"
 		]
 	},
+	"bs-socialblog-type": "בלוג",
 	"blog": "בלוג",
+	"bs-socialblog-entityblog-header-create": "ליצור בלוג חדש...",
 	"bs-socialblog-var-blogtitle": "כותרת",
+	"bs-socialblog-entityblog-content-more-btn-more": "עוד",
+	"bs-socialblog-entityblog-content-more-btn-less": "פחות",
 	"bs-socialblog-special-blog-heading": "בלוג",
-	"bs-socialblog-special-blog-heading-entry": "בלוג/$1"
+	"bs-socialblog-special-blog-heading-entry": "בלוג/$1",
+	"bs-social-notification-blog-primary-link-label": "צפייה בבלוג",
+	"bs-socialblog-type-groupblog": "בלוג קבוצתי"
 }

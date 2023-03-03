@@ -2,7 +2,7 @@
 	"name": "BlueSpiceSocialBlog",
 	"version": "4.3.0-alpha",
 	"license-name": "GPL-3.0-only",
-	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialBlog",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceSocialBlog",
 	"author": "Patric Wirth",
 	"descriptionmsg": "bs-socialblog-desc",
 	"requires": {

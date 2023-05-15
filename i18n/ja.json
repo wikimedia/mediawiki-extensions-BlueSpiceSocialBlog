@@ -11,5 +11,11 @@
 	"bs-socialblog-var-blogtitle": "ページ名",
 	"action-social-blog": "ブログの作成/編集",
 	"right-social-blog": "ブログを作成/編集",
-	"bs-socialblog-groupblog-permission-error": "利用者はアクションを実行することを許可されていません"
+	"bs-socialblog-groupblog-permission-error": "利用者は操作を実行することが許可されていません",
+	"bs-socialblog-type": "ブログ",
+	"bs-socialblog-special-blog-heading": "ブログ",
+	"bs-socialblog-special-blog-heading-entry": "ブログ/$1",
+	"bs-social-notification-blog-primary-link-label": "ブログを閲覧",
+	"action-social-blog-comment": "ブログへのコメント",
+	"right-social-blog-comment": "ブログにコメント"
 }

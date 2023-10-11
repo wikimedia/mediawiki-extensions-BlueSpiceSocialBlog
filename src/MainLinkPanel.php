@@ -43,21 +43,21 @@ class MainLinkPanel extends RestrictedTextLink {
 	 * @return Message
 	 */
 	public function getText(): Message {
-		return Message::newFromKey( 'bs-socialblog-special-blog-heading' );
+		return Message::newFromKey( 'bs-social-blog-mainlinks-label' );
 	}
 
 	/**
 	 * @return Message
 	 */
 	public function getTitle(): Message {
-		return Message::newFromKey( 'bs-socialblog-special-blog-heading' );
+		return Message::newFromKey( 'bs-social-blog-mainlinks-label' );
 	}
 
 	/**
 	 * @return Message
 	 */
 	public function getAriaLabel(): Message {
-		return Message::newFromKey( 'bs-socialblog-special-blog-heading' );
+		return Message::newFromKey( 'bs-social-blog-mainlinks-label' );
 	}
 
 }

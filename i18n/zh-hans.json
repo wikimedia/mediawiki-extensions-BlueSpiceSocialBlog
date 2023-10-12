@@ -6,11 +6,13 @@
 			"Ken418",
 			"Lakejason0",
 			"Liuxinyu970226",
-			"沈澄心"
+			"沈澄心",
+			"Xyb"
 		]
 	},
 	"bs-socialblog-type": "博客",
 	"blog": "博客",
+	"bs-socialblog-entityblog-header-create": "创建一个新博客...",
 	"bs-socialblog-var-blogtitle": "职位",
 	"bs-socialblog-entityblog-content-more-btn-more": "更多",
 	"bs-socialblog-entityblog-content-more-btn-less": "更少",

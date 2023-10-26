@@ -36,8 +36,9 @@
 	"action-social-blog-comment": "Blogs zu kommentieren",
 	"right-social-blog": "Blogs erstellen und bearbeiten",
 	"right-social-blog-comment": "Blogs kommentieren",
-	"bs-socialblog-config-mainlinks-blog-label": "Einstiegspunkt \"Blog\" anzeigen",
-	"bs-socialblog-config-mainlinks-blog-help": "Einstiegspunkt \"Blog\" in der linken Navigation anzeigen",
+	"bs-socialblog-config-mainlinks-blog-label": "Einstiegspunkt \"News\" anzeigen",
+	"bs-socialblog-config-mainlinks-blog-help": "Einstiegspunkt \"News\" in der linken Navigation anzeigen",
 	"bs-socialblog-type-groupblog": "Gruppen-Blog",
-	"bs-socialblog-groupblog-permission-error": "Der Benutzer darf die Aktion nicht ausführen"
+	"bs-socialblog-groupblog-permission-error": "Der Benutzer darf die Aktion nicht ausführen",
+	"bs-social-blog-mainlinks-label": "News"
 }

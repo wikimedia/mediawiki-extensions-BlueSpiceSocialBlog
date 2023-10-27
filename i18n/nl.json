@@ -35,8 +35,9 @@
 	"action-social-blog-comment": "reageren op blogs",
 	"right-social-blog": "Blogs aanmaken en bewerken",
 	"right-social-blog-comment": "Reageren op blogs",
-	"bs-socialblog-config-mainlinks-blog-label": "Toegangspunt \"Blog\" tonen",
-	"bs-socialblog-config-mainlinks-blog-help": "De koppeling naar het toegangspunt \"Blog\" tonen in de navigatie aan de linkerkant",
+	"bs-socialblog-config-mainlinks-blog-label": "Toegangspunt “Nieuws” tonen",
+	"bs-socialblog-config-mainlinks-blog-help": "De koppeling naar het toegangspunt “Nieuws” tonen in de navigatie aan de linkerkant",
 	"bs-socialblog-type-groupblog": "Groepsblog",
-	"bs-socialblog-groupblog-permission-error": "De gebruiker mag de handeling niet verrichten"
+	"bs-socialblog-groupblog-permission-error": "De gebruiker mag de handeling niet verrichten",
+	"bs-social-blog-mainlinks-label": "Nieuws"
 }

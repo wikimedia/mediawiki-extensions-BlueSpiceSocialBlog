@@ -32,8 +32,9 @@
 	"action-social-blog-comment": "komentiranje blogov",
 	"right-social-blog": "Ustvarjanje in urejanje blogov",
 	"right-social-blog-comment": "Komentiranje blogov",
-	"bs-socialblog-config-mainlinks-blog-label": "Prikaži vstopno točko »Blog«",
-	"bs-socialblog-config-mainlinks-blog-help": "Prikaži povezavo vstopne točke »Blog« v navigaciji levo",
+	"bs-socialblog-config-mainlinks-blog-label": "Prikaži vstopno točko »Novice«",
+	"bs-socialblog-config-mainlinks-blog-help": "V navigaciji levo prikaži povezavo vstopne točke »Novice«",
 	"bs-socialblog-type-groupblog": "Skupinski blog",
-	"bs-socialblog-groupblog-permission-error": "Uporabniu ni dovoljeno izvesti tega dejanja"
+	"bs-socialblog-groupblog-permission-error": "Uporabniu ni dovoljeno izvesti tega dejanja",
+	"bs-social-blog-mainlinks-label": "Novice"
 }

@@ -35,8 +35,9 @@
 	"bs-socialblog-toc-useblogteaser": "Teaser-tekst gebruiken voor blogberichten in de tijdlijn",
 	"bs-socialblog-toc-useblogteaser-help": "In het blogformulier kunnen gebruikers een teaser-tekst invoeren door op het tandwielsymbool te klikken. Bij activering wordt deze teaser-tekst getoond op de pagina Special:Timeline in plaats van het eerste deel van het blogbericht zelf.",
 	"action-social-blog": "blogs aan te maken en te bewerken",
-	"bs-socialblog-config-mainlinks-blog-label": "Toegangspunt \"Blog\" tonen",
-	"bs-socialblog-config-mainlinks-blog-help": "De koppeling naar het toegangspunt \"Blog\" tonen in de navigatie aan de linkerkant",
+	"bs-socialblog-config-mainlinks-blog-label": "Toegangspunt “Nieuws” tonen",
+	"bs-socialblog-config-mainlinks-blog-help": "De koppeling naar het toegangspunt “Nieuws” tonen in de navigatie aan de linkerkant",
 	"bs-socialblog-type-groupblog": "Groepsblog",
-	"bs-socialblog-groupblog-permission-error": "De gebruiker mag de handeling niet verrichten"
+	"bs-socialblog-groupblog-permission-error": "De gebruiker mag de handeling niet verrichten",
+	"bs-social-blog-mainlinks-label": "Nieuws"
 }

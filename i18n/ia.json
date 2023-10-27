@@ -32,8 +32,9 @@
 	"action-social-blog-comment": "commentar sur blogs",
 	"right-social-blog": "Crear e modificar blogs",
 	"right-social-blog-comment": "Commentar sur blogs",
-	"bs-socialblog-config-mainlinks-blog-label": "Monstrar le puncto de entrata \"Blog\"",
-	"bs-socialblog-config-mainlinks-blog-help": "Monstrar le ligamine del puncto de entrata \"Blog\" in le navigation al sinistra",
+	"bs-socialblog-config-mainlinks-blog-label": "Monstrar le puncto de entrata “Novas”",
+	"bs-socialblog-config-mainlinks-blog-help": "Monstrar le ligamine del puncto de entrata “Novas” in le navigation al sinistra",
 	"bs-socialblog-type-groupblog": "Blog del gruppo",
-	"bs-socialblog-groupblog-permission-error": "Le usator non es autorisate a exequer le action"
+	"bs-socialblog-groupblog-permission-error": "Le usator non es autorisate a exequer le action",
+	"bs-social-blog-mainlinks-label": "Novas"
 }

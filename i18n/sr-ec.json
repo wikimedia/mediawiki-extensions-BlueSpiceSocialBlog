@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Kizule",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Milicevic01"
 		]
 	},
-	"blog": "Блог"
+	"blog": "Блог",
+	"bs-social-blog-mainlinks-label": "Вести"
 }

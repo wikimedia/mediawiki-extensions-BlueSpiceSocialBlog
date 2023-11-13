@@ -35,8 +35,8 @@
 	"action-social-blog-comment": "להגיב לבלוגים",
 	"right-social-blog": "יצירה ועריכה של בלוגים",
 	"right-social-blog-comment": "תגובה לבלוגים",
-	"bs-socialblog-config-mainlinks-blog-label": "הצגת נקודת הכניסה \"חדשות\"",
-	"bs-socialblog-config-mainlinks-blog-help": "הצגת נקודת הכניסה \"חדשות\" בסרגל הניווט הימני",
+	"bs-socialblog-config-mainlinks-blog-label": "הצגת נקודת הכניסה \"בלוג\"",
+	"bs-socialblog-config-mainlinks-blog-help": "הצגת נקודת הכניסה \"בלוג\" בסרגל הניווט הימני",
 	"bs-socialblog-groupblog-permission-error": "המשתמש אינו רשאי לבצע את הפעולה",
-	"bs-social-blog-mainlinks-label": "חדשות"
+	"bs-social-blog-mainlinks-label": "בלוג"
 }

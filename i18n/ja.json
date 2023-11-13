@@ -17,5 +17,6 @@
 	"bs-socialblog-special-blog-heading-entry": "ブログ/$1",
 	"bs-social-notification-blog-primary-link-label": "ブログを閲覧",
 	"action-social-blog-comment": "ブログへのコメント",
-	"right-social-blog-comment": "ブログにコメント"
+	"right-social-blog-comment": "ブログにコメント",
+	"bs-social-blog-mainlinks-label": "ブログ"
 }

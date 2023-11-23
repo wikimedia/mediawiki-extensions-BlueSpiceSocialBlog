@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Guycn2",
-			"Steeve815",
-			"Amire80"
+			"Steeve815"
 		]
 	},
 	"bs-socialblog-desc": "ישות בלוג עבור BlueSpiceSocial",
@@ -37,5 +37,6 @@
 	"bs-socialblog-config-mainlinks-blog-label": "הצגת נקודת הכניסה \"בלוג\"",
 	"bs-socialblog-config-mainlinks-blog-help": "הצגת נקודת הכניסה \"בלוג\" בסרגל הניווט הימני",
 	"bs-socialblog-type-groupblog": "בלוג קבוצתי",
-	"bs-socialblog-groupblog-permission-error": "המשתמש אינו רשאי לבצע את הפעולה"
+	"bs-socialblog-groupblog-permission-error": "המשתמש אינו רשאי לבצע את הפעולה",
+	"bs-social-blog-mainlinks-label": "בלוג"
 }

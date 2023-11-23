@@ -39,5 +39,6 @@
 	"bs-socialblog-config-mainlinks-blog-label": "Einstiegspunkt \"Blog\" anzeigen",
 	"bs-socialblog-config-mainlinks-blog-help": "Einstiegspunkt \"Blog\" in der linken Navigation anzeigen",
 	"bs-socialblog-type-groupblog": "Gruppen-Blog",
-	"bs-socialblog-groupblog-permission-error": "Der Benutzer darf die Aktion nicht ausführen"
+	"bs-socialblog-groupblog-permission-error": "Der Benutzer darf die Aktion nicht ausführen",
+	"bs-social-blog-mainlinks-label": "Blog"
 }

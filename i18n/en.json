@@ -37,5 +37,6 @@
 	"bs-socialblog-config-mainlinks-blog-label": "Show entrypoint \"Blog\"",
 	"bs-socialblog-config-mainlinks-blog-help": "Show entrypoint \"Blog\" link in the left navigation",
 	"bs-socialblog-type-groupblog": "Group blog",
-	"bs-socialblog-groupblog-permission-error": "User is not allowed to perform action"
+	"bs-socialblog-groupblog-permission-error": "User is not allowed to perform action",
+	"bs-social-blog-mainlinks-label": "Blog"
 }

@@ -38,5 +38,6 @@
 	"bs-socialblog-config-mainlinks-blog-label": "Label for checkbox in config, that shows entrypoint \"Blog\" in the left navigation",
 	"bs-socialblog-config-mainlinks-blog-help": "Help message for checkbox in config, that shows entrypoint \"Blog\" in the left navigation",
 	"bs-socialblog-type-groupblog": "Label for option \"groupblog\" in entry field \"type\"",
-	"bs-socialblog-groupblog-permission-error": "Error message when a user is not allowed to perform an action"
+	"bs-socialblog-groupblog-permission-error": "Error message when a user is not allowed to perform an action",
+	"bs-social-blog-mainlinks-label": "Title for link used in the left navigation for the page name of [[Special:Blog]].\n{{Identical|Blog}}"
 }

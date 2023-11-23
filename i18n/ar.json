@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"ديفيد",
-			"محمد أحمد عبد الفتاح",
-			"Meno25"
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"bs-socialblog-desc": "كيان المدونة لـBlueSpiceSocial",
@@ -37,5 +37,6 @@
 	"bs-socialblog-config-mainlinks-blog-label": "إظهار \"مدونة\" نقطة الدخول",
 	"bs-socialblog-config-mainlinks-blog-help": "إظهار ارتباط \"مدونة\" نقطة الدخول في شريط التنقل الأيمن",
 	"bs-socialblog-type-groupblog": "مدونة المجموعة",
-	"bs-socialblog-groupblog-permission-error": "المستخدم غير مسموح له بأداء العمل"
+	"bs-socialblog-groupblog-permission-error": "المستخدم غير مسموح له بأداء العمل",
+	"bs-social-blog-mainlinks-label": "أخبار"
 }

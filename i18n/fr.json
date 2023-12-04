@@ -6,7 +6,8 @@
 			"Thibaut120094",
 			"Urhixidur",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Wnagxsi"
 		]
 	},
 	"bs-socialblog-desc": "Entité de blogue pour ''BlueSpiceSocial''",
@@ -37,9 +38,9 @@
 	"action-social-blog-comment": "commentaire sur les blogues",
 	"right-social-blog": "Créer et modifier des blogues",
 	"right-social-blog-comment": "Commentaire sur les blogues",
-	"bs-socialblog-config-mainlinks-blog-label": "Afficher le point d’entrée « Blogue »",
-	"bs-socialblog-config-mainlinks-blog-help": "Afficher le lien du point d’entrée « Blogue » dans la navigation à gauche",
+	"bs-socialblog-config-mainlinks-blog-label": "Afficher le point d’entrée «Blog»",
+	"bs-socialblog-config-mainlinks-blog-help": "Afficher le lien du point d’entrée « Livres » dans le panneau de navigation à gauche",
 	"bs-socialblog-type-groupblog": "Blogue de groupe",
 	"bs-socialblog-groupblog-permission-error": "L’utilisateur n’est pas autorisé à effectuer cette action",
-	"bs-social-blog-mainlinks-label": "Actualités"
+	"bs-social-blog-mainlinks-label": "Blogue"
 }

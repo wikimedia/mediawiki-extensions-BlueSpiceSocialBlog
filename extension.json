@@ -168,7 +168,8 @@
 		"LoadExtensionSchemaUpdates": "\\BlueSpice\\Social\\Blog\\Hook\\LoadExtensionSchemaUpdates\\AddBlogMigrationMaintenanceScript::callback",
 		"SkinBuildSidebar": "\\BlueSpice\\Social\\Blog\\Hook\\SkinBuildSidebar\\AddNavigationItem::callback",
 		"BeforePageDisplay": "\\BlueSpice\\Social\\Blog\\Hook\\BeforePageDisplay\\AddResources::callback",
-		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface"
+		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface",
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Social\\Blog\\Hook\\BSUsageTrackerRegisterCollectors\\NoOfBlogEntries::callback"
 	},
 	"manifest_version": 2
 }

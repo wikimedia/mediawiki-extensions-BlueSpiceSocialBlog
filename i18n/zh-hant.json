@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Arielyurusova",
 			"Kly",
 			"Weather Top Wizard",
 			"Winston Sung",
@@ -30,10 +31,14 @@
 	"bs-social-notifications-email-blog-delete-body": "使用者{{GENDER:$1|$2已刪除}}部落格「$3」",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2已刪除}}部落格「$3」",
 	"bs-social-notification-blog-primary-link-label": "檢視部落格",
+	"bs-socialblog-toc-useblogteaser-help": "在部落格表單中，使用者可以透過點擊齒輪符號來輸入預告文字。如果被激活，該預告文字將顯示在「Special:Timeline」頁面上，而不是部落格條目本身的第一部分。",
 	"action-social-blog": "建立與編輯部落格",
 	"action-social-blog-comment": "在部落格上評論",
 	"right-social-blog": "建立與編輯部落格",
 	"right-social-blog-comment": "在部落格上評論",
+	"bs-socialblog-config-mainlinks-blog-label": "顯示入口點“博客”",
+	"bs-socialblog-config-mainlinks-blog-help": "在左側導覽中顯示入口點「部落格」鏈接",
 	"bs-socialblog-type-groupblog": "群組部落格",
-	"bs-socialblog-groupblog-permission-error": "不允許使用者執行操作"
+	"bs-socialblog-groupblog-permission-error": "不允許使用者執行操作",
+	"bs-social-blog-mainlinks-label": "部落格"
 }

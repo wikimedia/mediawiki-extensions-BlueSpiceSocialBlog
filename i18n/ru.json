@@ -4,7 +4,8 @@
 			"DDPAT",
 			"Ice bulldog",
 			"Mailman",
-			"Pacha Tchernof"
+			"Pacha Tchernof",
+			"Yurina Tatiana"
 		]
 	},
 	"bs-socialblog-type": "Блог",
@@ -28,5 +29,6 @@
 	"bs-social-notifications-email-blog-delete-body": "Участник {{GENDER:$1|$2 удалил}} блог «$3»",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 удалил}} блог «$3»",
 	"bs-social-notification-blog-primary-link-label": "Посмотреть блог",
-	"bs-socialblog-toc-useblogteaser-help": "В форме блога пользователи могут ввести текст-тизер, щелкнув символ шестеренки. Если эта функция активирована, то текст-тизер отобразится на странице Special:Timeline вместо первой части самой записи в блоге."
+	"bs-socialblog-toc-useblogteaser-help": "В форме блога пользователи могут ввести текст-тизер, щелкнув символ шестеренки. Если эта функция активирована, то текст-тизер отобразится на странице Special:Timeline вместо первой части самой записи в блоге.",
+	"bs-social-blog-mainlinks-label": "Блог"
 }

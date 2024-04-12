@@ -34,9 +34,6 @@
 			"RendererRegistry": {
 				"socialentityblog": "\\BlueSpice\\Social\\Blog\\Renderer\\Entity\\Blog::factory"
 			},
-			"NotificationRegistrationFunctions": [
-				"\\BlueSpice\\Social\\Blog\\Notification\\Registrator::registerNotifications"
-			],
 			"PermissionRegistry": {
 				"social-blog": {
 					"type": "global",
@@ -54,6 +51,17 @@
 						"admin",
 						"maintenanceadmin"
 					]
+				}
+			}
+		},
+		"Notifications": {
+			"Events": {
+				"bs-social-event-blog": {
+					"spec": {
+						"class": "\\BlueSpice\\Social\\Blog\\Event\\SocialBlogEvent",
+						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory" ]
+					},
+					"buckets": [ "content-high-freq" ]
 				}
 			}
 		}

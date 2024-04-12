@@ -183,7 +183,7 @@ class Blog extends Text {
 	 * @return string
 	 */
 	protected function get_NotificationObjectClass() {
-		return \BlueSpice\Social\Blog\Notification\SocialBlogNotification::class;
+		return 'bs-social-event-blog';
 	}
 
 	/**

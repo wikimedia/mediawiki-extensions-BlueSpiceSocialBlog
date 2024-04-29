@@ -1,28 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар"
+			"\u0423\u043c\u0430\u0440"
 		]
 	},
-	"bs-socialblog-type": "Блог",
-	"blog": "Блог",
-	"bs-socialblog-entityblog-header-create": "Кхоьллина керла блог...",
-	"bs-socialblog-var-blogtitle": "ЦӀе",
-	"bs-socialblog-entityblog-content-more-btn-more": "Кхин а",
-	"bs-socialblog-entityblog-content-more-btn-less": "КӀезиг",
-	"bs-socialblog-special-blog-heading": "Блог",
-	"bs-socialblog-special-blog-heading-entry": "Блог/$1",
-	"bs-social-notifications-blog-create": "Декъашхочо {{GENDER:$1|$2 кхоьллина}} керла блог «$3»",
-	"bs-social-notifications-email-blog-create-subject": "Декъашхочо {{GENDER:$1|$2 кхоьллина}} керла блог «$3»",
-	"bs-social-notifications-email-blog-create-body": "Декъашхочо {{GENDER:$1|$2 кхоьллина}} керла блог «$3» рогӀера йоза долуш:\n\n$4",
-	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 кхоьллина}} керла блог «$3»",
-	"bs-social-notifications-blog-edit": "Декъашхочо {{GENDER:$1|$2 тайина}} блог «$3»",
-	"bs-social-notifications-email-blog-edit-subject": "Декъашхочо {{GENDER:$1|$2 тайина}} блог «$3»",
-	"bs-social-notifications-email-blog-edit-body": "Декъашхочо {{GENDER:$1|$2 тайина}} блог «$3». Цуьнан йоза:\n\n$4",
-	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 тайина}} блог «$3»",
-	"bs-social-notifications-blog-delete": "Декъашхочо {{GENDER:$1|$2 дӀайаьккхина}} блог «$3»",
-	"bs-social-notifications-email-blog-delete-subject": "Декъашхочо {{GENDER:$1|$2 дӀайаьккхина}} блог «$3»",
-	"bs-social-notifications-email-blog-delete-body": "Декъашхочо {{GENDER:$1|$2 дӀайаьккхина}} блог «$3»",
-	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 дӀайаьккхина}} блог «$3»",
-	"bs-social-notification-blog-primary-link-label": "Хьажа блог"
+	"bs-socialblog-type": "\u0411\u043b\u043e\u0433",
+	"blog": "\u0411\u043b\u043e\u0433",
+	"bs-socialblog-entityblog-header-create": "\u041a\u0445\u043e\u044c\u043b\u043b\u0438\u043d\u0430 \u043a\u0435\u0440\u043b\u0430 \u0431\u043b\u043e\u0433...",
+	"bs-socialblog-var-blogtitle": "\u0426\u04c0\u0435",
+	"bs-socialblog-entityblog-content-more-btn-more": "\u041a\u0445\u0438\u043d \u0430",
+	"bs-socialblog-entityblog-content-more-btn-less": "\u041a\u04c0\u0435\u0437\u0438\u0433",
+	"bs-socialblog-special-blog-heading": "\u0411\u043b\u043e\u0433",
+	"bs-socialblog-special-blog-heading-entry": "\u0411\u043b\u043e\u0433\/$1",
+	"bs-social-notifications-blog-create": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u043a\u0445\u043e\u044c\u043b\u043b\u0438\u043d\u0430}} \u043a\u0435\u0440\u043b\u0430 \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-email-blog-create-subject": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u043a\u0445\u043e\u044c\u043b\u043b\u0438\u043d\u0430}} \u043a\u0435\u0440\u043b\u0430 \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-email-blog-create-body": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u043a\u0445\u043e\u044c\u043b\u043b\u0438\u043d\u0430}} \u043a\u0435\u0440\u043b\u0430 \u0431\u043b\u043e\u0433 \u00ab$3\u00bb \u0440\u043e\u0433\u04c0\u0435\u0440\u0430 \u0439\u043e\u0437\u0430 \u0434\u043e\u043b\u0443\u0448:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 \u043a\u0445\u043e\u044c\u043b\u043b\u0438\u043d\u0430}} \u043a\u0435\u0440\u043b\u0430 \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-blog-edit": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u0442\u0430\u0439\u0438\u043d\u0430}} \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-email-blog-edit-subject": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u0442\u0430\u0439\u0438\u043d\u0430}} \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-email-blog-edit-body": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u0442\u0430\u0439\u0438\u043d\u0430}} \u0431\u043b\u043e\u0433 \u00ab$3\u00bb. \u0426\u0443\u044c\u043d\u0430\u043d \u0439\u043e\u0437\u0430:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 \u0442\u0430\u0439\u0438\u043d\u0430}} \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-blog-delete": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u0434\u04c0\u0430\u0439\u0430\u044c\u043a\u043a\u0445\u0438\u043d\u0430}} \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-email-blog-delete-subject": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u0434\u04c0\u0430\u0439\u0430\u044c\u043a\u043a\u0445\u0438\u043d\u0430}} \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-email-blog-delete-body": "\u0414\u0435\u043a\u044a\u0430\u0448\u0445\u043e\u0447\u043e {{GENDER:$1|$2 \u0434\u04c0\u0430\u0439\u0430\u044c\u043a\u043a\u0445\u0438\u043d\u0430}} \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 \u0434\u04c0\u0430\u0439\u0430\u044c\u043a\u043a\u0445\u0438\u043d\u0430}} \u0431\u043b\u043e\u0433 \u00ab$3\u00bb",
+	"bs-social-notification-blog-primary-link-label": "\u0425\u044c\u0430\u0436\u0430 \u0431\u043b\u043e\u0433"
 }

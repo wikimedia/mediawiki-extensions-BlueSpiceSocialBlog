@@ -7,19 +7,21 @@
 			"Lakejason0",
 			"Liuxinyu970226",
 			"Xyb",
-			"沈澄心"
+			"\u6c88\u6f84\u5fc3"
 		]
 	},
-	"bs-socialblog-type": "博客",
-	"blog": "博客",
-	"bs-socialblog-entityblog-header-create": "创建一个新博客...",
-	"bs-socialblog-var-blogtitle": "职位",
-	"bs-socialblog-entityblog-content-more-btn-more": "更多",
-	"bs-socialblog-entityblog-content-more-btn-less": "更少",
-	"bs-socialblog-special-blog-heading": "博客",
-	"bs-social-notification-blog-primary-link-label": "查看博客",
-	"action-social-blog": "创建和编辑博客",
-	"action-social-blog-comment": "评论博客",
-	"right-social-blog": "创建和编辑博客",
-	"right-social-blog-comment": "评论博客"
+	"bs-socialblog-type": "\u535a\u5ba2",
+	"blog": "\u535a\u5ba2",
+	"bs-socialblog-entityblog-header-create": "\u521b\u5efa\u4e00\u4e2a\u65b0\u535a\u5ba2...",
+	"bs-socialblog-var-blogtitle": "\u804c\u4f4d",
+	"bs-socialblog-entityblog-content-more-btn-more": "\u66f4\u591a",
+	"bs-socialblog-entityblog-content-more-btn-less": "\u66f4\u5c11",
+	"bs-socialblog-special-blog-heading": "\u535a\u5ba2",
+	"bs-social-notification-blog-primary-link-label": "\u67e5\u770b\u535a\u5ba2",
+	"action-social-blog": "\u521b\u5efa\u548c\u7f16\u8f91\u535a\u5ba2",
+	"action-social-blog-comment": "\u8bc4\u8bba\u535a\u5ba2",
+	"right-social-blog": "\u521b\u5efa\u548c\u7f16\u8f91\u535a\u5ba2",
+	"right-social-blog-comment": "\u8bc4\u8bba\u535a\u5ba2",
+	"bs-social-event-blog-edit-desc": "\u535a\u6587\u5df2\u7f16\u8f91",
+	"bs-social-event-blog-delete-desc": "\u535a\u6587\u5df2\u5220\u9664"
 }

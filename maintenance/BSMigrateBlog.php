@@ -31,6 +31,7 @@ class BSMigrateBlog extends LoggedUpdateMaintenance {
 		$this->services = MediaWikiServices::getInstance();
 	}
 
+	/** @var array */
 	protected $data = [];
 
 	protected function readData() {

@@ -15,8 +15,9 @@ use MWStake\MediaWiki\Component\DataStore\Filter\ListValue;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 
 class MayFixMigratedBlogTimestamps extends Maintenance {
-
+	/** @var Store|null */
 	protected $store = null;
+	/** @var array */
 	protected $data = [];
 
 	public function __construct() {

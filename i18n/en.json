@@ -31,5 +31,6 @@
 	"bs-social-event-blog-delete-desc": "Blog post deleted",
 	"bs-social-event-blog-create": "{{GENDER:$1|created}} a new blog post \"$2\"",
 	"bs-social-event-blog-edit": "{{GENDER:$1|edited}} blog post \"$2\"",
-	"bs-social-event-blog-delete": "{{GENDER:$1|deleted}} blog post \"$2\""
+	"bs-social-event-blog-delete": "{{GENDER:$1|deleted}} blog post \"$2\"",
+	"bs-social-notification-blog-primary-link-label": "View blog"
 }

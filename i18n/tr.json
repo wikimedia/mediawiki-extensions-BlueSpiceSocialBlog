@@ -24,5 +24,6 @@
 	"action-social-blog": "blog oluştur ve düzenle",
 	"action-social-blog-comment": "blogda yorumla",
 	"right-social-blog": "Blog oluştur ve düzenle",
-	"right-social-blog-comment": "Bloglardaki yorumlar"
+	"right-social-blog-comment": "Bloglardaki yorumlar",
+	"bs-social-notification-blog-primary-link-label": "Blogu görüntüle"
 }

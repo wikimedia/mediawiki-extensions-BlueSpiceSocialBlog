@@ -19,5 +19,6 @@
 	"right-social-blog": "прављење и уређивање блогова",
 	"right-social-blog-comment": "коментарисање на блоговима",
 	"bs-socialblog-groupblog-permission-error": "Кориснику није дозвољено да изврши радњу",
-	"bs-social-blog-mainlinks-label": "Блог"
+	"bs-social-blog-mainlinks-label": "Блог",
+	"bs-social-notification-blog-primary-link-label": "Погледај блог"
 }

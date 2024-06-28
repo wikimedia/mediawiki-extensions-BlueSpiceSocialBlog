@@ -14,5 +14,6 @@
 	"bs-socialblog-entityblog-content-more-btn-less": "Mindre",
 	"bs-socialblog-toc-useblogteaser": "Använd smygtext för blogginlägg i tidslinjen",
 	"bs-socialblog-special-blog-heading": "Blogg",
-	"bs-socialblog-special-blog-heading-entry": "Blog/$1"
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notification-blog-primary-link-label": "Visa blogg"
 }

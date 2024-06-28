@@ -26,5 +26,6 @@
 	"bs-socialblog-config-mainlinks-blog-label": "Mostrar o ponto de entrada \"Blog\"",
 	"bs-socialblog-config-mainlinks-blog-help": "Mostrar hiperligação do ponto de entrada \"Blog\" na navegação à esquerda",
 	"bs-socialblog-type-groupblog": "Blog de grupo",
-	"bs-socialblog-groupblog-permission-error": "O usuário não tem permissão para executar a operação"
+	"bs-socialblog-groupblog-permission-error": "O usuário não tem permissão para executar a operação",
+	"bs-social-notification-blog-primary-link-label": "Ver blog"
 }

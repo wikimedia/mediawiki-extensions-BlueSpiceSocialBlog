@@ -17,5 +17,6 @@
 	"bs-socialblog-toc-useblogteaser": "Usa il testo del teaser per i post del blog nella barra temporale",
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
-	"bs-social-blog-mainlinks-label": "Blog"
+	"bs-social-blog-mainlinks-label": "Blog",
+	"bs-social-notification-blog-primary-link-label": "Visualizza blog"
 }

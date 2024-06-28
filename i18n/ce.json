@@ -11,5 +11,6 @@
 	"bs-socialblog-entityblog-content-more-btn-more": "Кхин а",
 	"bs-socialblog-entityblog-content-more-btn-less": "КӀезиг",
 	"bs-socialblog-special-blog-heading": "Блог",
-	"bs-socialblog-special-blog-heading-entry": "Блог/$1"
+	"bs-socialblog-special-blog-heading-entry": "Блог/$1",
+	"bs-social-notification-blog-primary-link-label": "Хьажа блог"
 }

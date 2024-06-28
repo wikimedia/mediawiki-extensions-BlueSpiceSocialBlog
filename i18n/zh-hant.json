@@ -23,5 +23,6 @@
 	"right-social-blog": "建立與編輯部落格",
 	"right-social-blog-comment": "在部落格上評論",
 	"bs-socialblog-type-groupblog": "群組部落格",
-	"bs-socialblog-groupblog-permission-error": "不允許使用者執行操作"
+	"bs-socialblog-groupblog-permission-error": "不允許使用者執行操作",
+	"bs-social-notification-blog-primary-link-label": "檢視部落格"
 }

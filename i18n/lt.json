@@ -20,5 +20,6 @@
 	"right-social-blog": "Kurti ir redaguoti tinklaraščius",
 	"right-social-blog-comment": "Komentuoti tinklaraščiuose",
 	"bs-socialblog-type-groupblog": "Grupės tinklaraštis",
-	"bs-socialblog-groupblog-permission-error": "Naudotojui neleidžiama atlikti veiksmo"
+	"bs-socialblog-groupblog-permission-error": "Naudotojui neleidžiama atlikti veiksmo",
+	"bs-social-notification-blog-primary-link-label": "Žiūrėti tinklaraštį"
 }

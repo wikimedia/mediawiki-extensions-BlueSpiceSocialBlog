@@ -24,5 +24,6 @@
 	"right-social-blog": "Створювати та редагувати блоги",
 	"right-social-blog-comment": "Коментувати блоги",
 	"bs-socialblog-config-mainlinks-blog-label": "Показати точку входу «Блог»",
-	"bs-socialblog-config-mainlinks-blog-help": "Показати посилання «Блог» в навігаційній панелі ліворуч"
+	"bs-socialblog-config-mainlinks-blog-help": "Показати посилання «Блог» в навігаційній панелі ліворуч",
+	"bs-social-notification-blog-primary-link-label": "Переглянути блог"
 }

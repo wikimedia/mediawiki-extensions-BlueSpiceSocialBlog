@@ -13,5 +13,6 @@
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
 	"action-social-blog": "criari e canciari blog",
 	"action-social-blog-comment": "cummentari ntî blog",
-	"right-social-blog-comment": "Cummenta ntî blog"
+	"right-social-blog-comment": "Cummenta ntî blog",
+	"bs-social-notification-blog-primary-link-label": "Talìa lu blog"
 }

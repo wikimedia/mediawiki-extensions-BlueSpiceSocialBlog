@@ -20,5 +20,6 @@
 	"bs-social-blog-mainlinks-label": "Блог",
 	"bs-social-event-blog-create-desc": "Новая запись блога создана",
 	"bs-social-event-blog-edit-desc": "Запись блога изменена",
-	"bs-social-event-blog-delete-desc": "Запись блога удалена"
+	"bs-social-event-blog-delete-desc": "Запись блога удалена",
+	"bs-social-notification-blog-primary-link-label": "Посмотреть блог"
 }

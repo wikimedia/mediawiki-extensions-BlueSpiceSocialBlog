@@ -25,5 +25,6 @@
 	"bs-socialblog-config-mainlinks-blog-help": "إظهار ارتباط \"مدونة\" نقطة الدخول في شريط التنقل الأيمن",
 	"bs-socialblog-type-groupblog": "مدونة المجموعة",
 	"bs-socialblog-groupblog-permission-error": "المستخدم غير مسموح له بأداء العمل",
-	"bs-social-blog-mainlinks-label": "أخبار"
+	"bs-social-blog-mainlinks-label": "أخبار",
+	"bs-social-notification-blog-primary-link-label": "عرض المدونة"
 }

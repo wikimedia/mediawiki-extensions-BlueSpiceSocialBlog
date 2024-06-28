@@ -12,5 +12,6 @@
 	"bs-socialblog-entityblog-content-more-btn-more": "Повеќе",
 	"bs-socialblog-entityblog-content-more-btn-less": "Помалку",
 	"bs-socialblog-special-blog-heading": "Blog",
-	"bs-socialblog-special-blog-heading-entry": "Blog/$1"
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notification-blog-primary-link-label": "Преглед на блогот"
 }

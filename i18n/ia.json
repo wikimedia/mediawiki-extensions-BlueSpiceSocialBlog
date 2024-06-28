@@ -29,5 +29,6 @@
 	"bs-social-event-blog-delete-desc": "Articulo de blog delite",
 	"bs-social-event-blog-create": "{{GENDER:$1|ha create}} un nove articulo de blog “$2”",
 	"bs-social-event-blog-edit": "{{GENDER:$1|ha modificate}} le articulo de blog “$2”",
-	"bs-social-event-blog-delete": "{{GENDER:$1|ha delite}} le articulo de blog “$2”"
+	"bs-social-event-blog-delete": "{{GENDER:$1|ha delite}} le articulo de blog “$2”",
+	"bs-social-notification-blog-primary-link-label": "Vider blog"
 }

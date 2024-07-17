@@ -32,5 +32,6 @@
 	"bs-social-event-blog-delete-desc": "Event type label",
 	"bs-social-event-blog-create": "Notification text when blog entry is created.\n$1 - agent\n$2 - blog title",
 	"bs-social-event-blog-edit": "Notification text when blog entry is edited.\n$1 - agent\n$2 - blog title",
-	"bs-social-event-blog-delete": "Notification text when blog entry is deleted.\n$1 - agent\n$2 - blog title"
+	"bs-social-event-blog-delete": "Notification text when blog entry is deleted.\n$1 - agent\n$2 - blog title",
+	"bs-social-notification-blog-primary-link-label": "Label for primary link button, leading to blog page"
 }

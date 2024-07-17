@@ -37,5 +37,11 @@
 	"bs-socialblog-config-mainlinks-blog-help": "V navigaciji levo prikaži povezavo vstopne točke »Blog«",
 	"bs-socialblog-type-groupblog": "Skupinski blog",
 	"bs-socialblog-groupblog-permission-error": "Uporabniu ni dovoljeno izvesti tega dejanja",
-	"bs-social-blog-mainlinks-label": "Blog"
+	"bs-social-blog-mainlinks-label": "Blog",
+	"bs-social-event-blog-create-desc": "Ustvaritev nove blogovske objave",
+	"bs-social-event-blog-edit-desc": "Urejanje nove blogovske objave",
+	"bs-social-event-blog-delete-desc": "Izbris blogovske objave",
+	"bs-social-event-blog-create": "{{GENDER:$1|je ustvaril|je ustvarila|je ustvaril_a}} novo blogovsko objavo »$2«",
+	"bs-social-event-blog-edit": "{{GENDER:$1|je uredil|je uredila|je uredil_a}} blogovsko objavo »$2«",
+	"bs-social-event-blog-delete": "{{GENDER:$1|je izbrisal|je izbrisala|je izbrisal_a}} blogovsko objavo »$2«"
 }

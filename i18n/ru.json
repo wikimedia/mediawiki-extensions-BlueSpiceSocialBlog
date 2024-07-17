@@ -30,5 +30,8 @@
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 удалил}} блог «$3»",
 	"bs-social-notification-blog-primary-link-label": "Посмотреть блог",
 	"bs-socialblog-toc-useblogteaser-help": "В форме блога пользователи могут ввести текст-тизер, щелкнув символ шестеренки. Если эта функция активирована, то текст-тизер отобразится на странице Special:Timeline вместо первой части самой записи в блоге.",
-	"bs-social-blog-mainlinks-label": "Блог"
+	"bs-social-blog-mainlinks-label": "Блог",
+	"bs-social-event-blog-create-desc": "Новая запись блога создана",
+	"bs-social-event-blog-edit-desc": "Запись блога изменена",
+	"bs-social-event-blog-delete-desc": "Запись блога удалена"
 }

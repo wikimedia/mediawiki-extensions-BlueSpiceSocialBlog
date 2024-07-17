@@ -39,5 +39,11 @@
 	"bs-socialblog-config-mainlinks-blog-help": "De koppeling naar het toegangspunt “Blog” tonen in de navigatie aan de linkerkant",
 	"bs-socialblog-type-groupblog": "Groepsblog",
 	"bs-socialblog-groupblog-permission-error": "De gebruiker mag de handeling niet verrichten",
-	"bs-social-blog-mainlinks-label": "Blog"
+	"bs-social-blog-mainlinks-label": "Blog",
+	"bs-social-event-blog-create-desc": "Nieuw blogartikel aangemaakt",
+	"bs-social-event-blog-edit-desc": "Blogartikel bewerkt",
+	"bs-social-event-blog-delete-desc": "Blogartikel verwijderd",
+	"bs-social-event-blog-create": "{{GENDER:$1|heeft}} een nieuw blogartikel “$2” aangemaakt",
+	"bs-social-event-blog-edit": "{{GENDER:$1|heeft}} het blogartikel “$2” bewerkt",
+	"bs-social-event-blog-delete": "{{GENDER:$1|heeft}} het blogartikel “$2” verwijderd"
 }

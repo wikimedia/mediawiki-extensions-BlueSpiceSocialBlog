@@ -62,10 +62,13 @@ class SocialBlogEvent extends SocialEvent {
 		// For blogs, related title is always Main_page, need to get the actual related page from tags
 		$data = $this->entity->getFullData();
 		if ( isset( $data['tags'] ) && count( $data['tags'] ) ) {
-			$firstRelated = reset( $data['tags'] );
-			$title = $this->titleFactory->newFromText( $firstRelated );
-			if ( $title ) {
-				return $title;
+			foreach ( $data['tags'] as $tag ) {
+				$title = $this->titleFactory->newFromText( $tag );
+				if ( $title && !$title->isMainPage() ) {
+					// Try to return any page but the main page, as its always assigned, mostly wrongly
+					// If no other page is found, return the main page (as it will be related title)
+					return $title;
+				}
 			}
 		}
 

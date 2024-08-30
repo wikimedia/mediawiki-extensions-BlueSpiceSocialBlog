@@ -54,7 +54,7 @@
 				}
 			}
 		},
-		"Notifications": {
+		"NotifyMe": {
 			"Events": {
 				"bs-social-event-blog": {
 					"spec": {

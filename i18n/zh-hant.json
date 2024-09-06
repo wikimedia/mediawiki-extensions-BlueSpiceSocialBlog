@@ -37,8 +37,14 @@
 	"right-social-blog-comment": "在部落格上評論",
 	"bs-socialblog-type-groupblog": "群組部落格",
 	"bs-socialblog-groupblog-permission-error": "不允許使用者執行操作",
-	"bs-socialblog-toc-useblogteaser-help": "在部落格表單中，使用者可以透過點擊齒輪符號來輸入預告文字。如果被激活，該預告文字將顯示在「Special:Timeline」頁面上，而不是部落格條目本身的第一部分。",
-	"bs-socialblog-config-mainlinks-blog-label": "顯示入口點“博客”",
-	"bs-socialblog-config-mainlinks-blog-help": "在左側導覽中顯示入口點「部落格」鏈接",
-	"bs-social-blog-mainlinks-label": "部落格"
+	"bs-socialblog-toc-useblogteaser-help": "在部落格表單中，使用者可以透過點擊齒輪狀符號來輸入要點文字。在生效後，該要點文字會顯示在 Special:Timeline 頁面，而不是在部落格條目本身的首段。",
+	"bs-socialblog-config-mainlinks-blog-label": "顯示「部落格」入口點",
+	"bs-socialblog-config-mainlinks-blog-help": "在左側導覽列顯示「部落格」連結入口點",
+	"bs-social-blog-mainlinks-label": "部落格",
+	"bs-social-event-blog-create-desc": "已建立新的部落格文章。",
+	"bs-social-event-blog-edit-desc": "已編輯部落格文章。",
+	"bs-social-event-blog-delete-desc": "已刪除部落格文章。",
+	"bs-social-event-blog-create": "{{GENDER:$1|建立了}}新的部落格文章「$2」",
+	"bs-social-event-blog-edit": "{{GENDER:$1|編輯了}}部落格文章「$2」",
+	"bs-social-event-blog-delete": "{{GENDER:$1|刪除了}}部落格文章「$2」"
 }

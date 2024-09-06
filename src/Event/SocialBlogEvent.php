@@ -9,32 +9,29 @@ use MediaWiki\Permissions\GroupPermissionsLookup;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 use Message;
+use MWException;
 use MWStake\MediaWiki\Component\Events\Delivery\IChannel;
 use MWStake\MediaWiki\Component\Events\EventLink;
+use SpecialPage;
 use stdClass;
-use TitleFactory;
+use Title;
 use Wikimedia\Rdbms\ILoadBalancer;
 
 class SocialBlogEvent extends SocialEvent {
-
-	/** @var TitleFactory */
-	private $titleFactory;
 
 	/**
 	 * @param ILoadBalancer $lb
 	 * @param UserFactory $userFactory
 	 * @param GroupPermissionsLookup $gpl
 	 * @param EntityFactory $entityFactory
-	 * @param TitleFactory $titleFactory
 	 * @param UserIdentity $agent
 	 * @param stdClass $entityData
 	 * @param string $action
 	 */
 	public function __construct(
 		ILoadBalancer $lb, UserFactory $userFactory, GroupPermissionsLookup $gpl, EntityFactory $entityFactory,
-		TitleFactory $titleFactory, UserIdentity $agent, stdClass $entityData, string $action = self::ACTION_EDIT
+		UserIdentity $agent, stdClass $entityData, string $action = self::ACTION_EDIT
 	) {
-		$this->titleFactory = $titleFactory;
 		parent::__construct( $lb, $userFactory, $gpl, $entityFactory, $agent, $entityData, $action );
 	}
 
@@ -56,23 +53,17 @@ class SocialBlogEvent extends SocialEvent {
 	}
 
 	/**
-	 * @return \Title|null
+	 * @return Title|null
+	 * @throws MWException
 	 */
 	protected function getWatchedTitle() {
 		// For blogs, related title is always Main_page, need to get the actual related page from tags
-		$data = $this->entity->getFullData();
-		if ( isset( $data['tags'] ) && count( $data['tags'] ) ) {
-			foreach ( $data['tags'] as $tag ) {
-				$title = $this->titleFactory->newFromText( $tag );
-				if ( $title && !$title->isMainPage() ) {
-					// Try to return any page but the main page, as its always assigned, mostly wrongly
-					// If no other page is found, return the main page (as it will be related title)
-					return $title;
-				}
-			}
+		$fromTag = $this->getRelatedTitleFromTags( $this->entity );
+		if ( $fromTag ) {
+			return $fromTag;
 		}
 
-		return $this->entity->getRelatedTitle();
+		return SpecialPage::getTitleFor( 'Blog' );
 	}
 
 	/**

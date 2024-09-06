@@ -59,7 +59,7 @@
 				"bs-social-event-blog": {
 					"spec": {
 						"class": "\\BlueSpice\\Social\\Blog\\Event\\SocialBlogEvent",
-						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "TitleFactory" ]
+						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory" ]
 					},
 					"buckets": [ "content-high-freq" ]
 				}

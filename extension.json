@@ -61,6 +61,7 @@
 						"class": "\\BlueSpice\\Social\\Blog\\Event\\SocialBlogEvent",
 						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "TitleFactory" ]
 					},
+					"testable": false,
 					"buckets": [ "content-high-freq" ]
 				}
 			}

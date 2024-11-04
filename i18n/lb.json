@@ -13,10 +13,6 @@
 	"bs-socialblog-entityblog-content-more-btn-less": "Manner",
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
-	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 huet}} de Blog \"$3\" geännert",
-	"bs-social-notifications-blog-delete": "Benotzer {{GENDER:$1|$2 huet}} de Blog \"$3\" geläscht",
-	"bs-social-notifications-email-blog-delete-subject": "Benotzer {{GENDER:$1|$2 huet}} de Blog \"$3\" geläscht",
-	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 huet}} de Blog \"$3\" geläscht",
-	"bs-social-notification-blog-primary-link-label": "Blog weisen",
-	"bs-social-blog-mainlinks-label": "Blog"
+	"bs-social-blog-mainlinks-label": "Blog",
+	"bs-social-notification-blog-primary-link-label": "Blog weisen"
 }

@@ -4,6 +4,7 @@
 			"BlueCamille",
 			"Gomoko",
 			"Graineahumus",
+			"Mahabarata",
 			"Thibaut120094",
 			"Urhixidur",
 			"Verdy p",
@@ -32,5 +33,10 @@
 	"bs-socialblog-groupblog-permission-error": "L’utilisateur n’est pas autorisé à effectuer cette action",
 	"bs-social-blog-mainlinks-label": "Blogue",
 	"bs-social-event-blog-create-desc": "Nouvel article de blog créé",
+	"bs-social-event-blog-edit-desc": "Article de blog modifié",
+	"bs-social-event-blog-delete-desc": "Article de blog supprimé",
+	"bs-social-event-blog-create": "{{GENDER:$1|a créé}} un nouvel article de blog « $2 »",
+	"bs-social-event-blog-edit": "{{GENDER:$1|a modifié}} l'article de blog « $2 »",
+	"bs-social-event-blog-delete": "{{GENDER:$1|a supprimé}} l'article de blog « $2 »",
 	"bs-social-notification-blog-primary-link-label": "Afficher le blogue"
 }

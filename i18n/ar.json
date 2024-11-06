@@ -21,10 +21,10 @@
 	"action-social-blog-comment": "التعليق على المدونات",
 	"right-social-blog": "إنشاء وتحرير المدونات",
 	"right-social-blog-comment": "التعليق على المدونات",
-	"bs-socialblog-config-mainlinks-blog-label": "إظهار \"مدونة\" نقطة الدخول",
-	"bs-socialblog-config-mainlinks-blog-help": "إظهار ارتباط \"مدونة\" نقطة الدخول في شريط التنقل الأيمن",
+	"bs-socialblog-config-mainlinks-blog-label": "إظهار نقطة الدخول \"المدونة\"",
+	"bs-socialblog-config-mainlinks-blog-help": "إظهار رابط نقطة الدخول \"المدونة\" في شريط التنقل الأيسر",
 	"bs-socialblog-type-groupblog": "مدونة المجموعة",
 	"bs-socialblog-groupblog-permission-error": "المستخدم غير مسموح له بأداء العمل",
-	"bs-social-blog-mainlinks-label": "أخبار",
+	"bs-social-blog-mainlinks-label": "مدونة",
 	"bs-social-notification-blog-primary-link-label": "عرض المدونة"
 }

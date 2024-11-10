@@ -24,5 +24,6 @@
 	"right-social-blog": "创建和编辑博客",
 	"right-social-blog-comment": "评论博客",
 	"bs-social-event-blog-edit-desc": "博文已编辑",
-	"bs-social-event-blog-delete-desc": "博文已删除"
+	"bs-social-event-blog-delete-desc": "博文已删除",
+	"bs-socialblog-special-blog-heading-entry": "博客/$1"
 }

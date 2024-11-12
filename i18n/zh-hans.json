@@ -18,6 +18,7 @@
 	"bs-socialblog-entityblog-content-more-btn-more": "更多",
 	"bs-socialblog-entityblog-content-more-btn-less": "更少",
 	"bs-socialblog-special-blog-heading": "博客",
+	"bs-socialblog-special-blog-heading-entry": "博客/$1",
 	"action-social-blog": "创建和编辑博客",
 	"action-social-blog-comment": "评论博客",
 	"right-social-blog": "创建和编辑博客",

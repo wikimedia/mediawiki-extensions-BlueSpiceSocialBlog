@@ -13,6 +13,13 @@
 	"bs-socialblog-entityblog-content-more-btn-less": "Manner",
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-socialblog-type-groupblog": "Gruppeblog",
 	"bs-social-blog-mainlinks-label": "Blog",
+	"bs-social-event-blog-create-desc": "Neie Blogbäitrag ugeluecht",
+	"bs-social-event-blog-edit-desc": "Blogbäitrag geännert",
+	"bs-social-event-blog-delete-desc": "Blogbäitrag geläscht",
+	"bs-social-event-blog-create": "huet en neie Blogbäitrag „$2“ {{GENDER:$1|ugeluecht}}",
+	"bs-social-event-blog-edit": "huet en neie Blogbäitrag „$2“ {{GENDER:$1|geännert}}",
+	"bs-social-event-blog-delete": "huet en neie Blogbäitrag „$2“ {{GENDER:$1|geläscht}}",
 	"bs-social-notification-blog-primary-link-label": "Blog weisen"
 }

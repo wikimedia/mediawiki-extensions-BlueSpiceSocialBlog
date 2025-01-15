@@ -38,5 +38,11 @@
 	"bs-socialblog-config-mainlinks-blog-help": "إظهار رابط نقطة الدخول \"المدونة\" في شريط التنقل الأيسر",
 	"bs-socialblog-type-groupblog": "مدونة المجموعة",
 	"bs-socialblog-groupblog-permission-error": "المستخدم غير مسموح له بأداء العمل",
-	"bs-social-blog-mainlinks-label": "مدونة"
+	"bs-social-blog-mainlinks-label": "مدونة",
+	"bs-social-event-blog-create-desc": "تم إنشاء تدوينة جديدة",
+	"bs-social-event-blog-edit-desc": "تم تحرير تدوينة المدونة",
+	"bs-social-event-blog-delete-desc": "تم حذف تدوينة المدونة",
+	"bs-social-event-blog-create": "{{GENDER:$1|أنشأ}} منشورًا جديدًا للمدونة \"$2\"",
+	"bs-social-event-blog-edit": "{{GENDER:$1|عدل|عدلت}} منشور المدونة \"$2\"",
+	"bs-social-event-blog-delete": "{{GENDER:$1|حذف|حذفت}} منشور المدونة \"$2\""
 }

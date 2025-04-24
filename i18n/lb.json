@@ -25,5 +25,9 @@
 	"bs-social-event-blog-delete-desc": "Blogbäitrag geläscht",
 	"bs-social-event-blog-create": "huet en neie Blogbäitrag „$2“ {{GENDER:$1|ugeluecht}}",
 	"bs-social-event-blog-edit": "huet en neie Blogbäitrag „$2“ {{GENDER:$1|geännert}}",
-	"bs-social-event-blog-delete": "huet en neie Blogbäitrag „$2“ {{GENDER:$1|geläscht}}"
+	"bs-social-event-blog-delete": "huet en neie Blogbäitrag „$2“ {{GENDER:$1|geläscht}}",
+	"action-social-blog": "Bloggen unzeleeën an z'änneren",
+	"action-social-blog-comment": "Bloggen ze kommentéieren",
+	"right-social-blog": "Bloggen uleeën an änneren",
+	"right-social-blog-comment": "Blogge kommentéieren"
 }

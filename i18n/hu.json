@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-socialblog-desc": "Blog entitás a BlueSpiceSocial számára",
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "Új blog létrehozása...",
+	"bs-socialblog-var-blogtitle": "Cím",
+	"bs-socialblog-entityblog-content-more-btn-more": "Több",
+	"bs-socialblog-entityblog-content-more-btn-less": "Kevesebb",
+	"bs-socialblog-toc-useblogteaser": "Használjon beharangozó szöveget a blogbejegyzésekhez az idővonalban",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-socialblog-toc-useblogteaser-help": "A blogbejegyzés űrlapján a felhasználók a fogaskerék szimbólumra kattintva adhatnak meg egy beharangozó szöveget. Ha aktiválva van, ez a beharangozó szöveg a Special:Timeline oldalon jelenik meg a blogbejegyzés első része helyett.",
+	"action-social-blog": "blogok létrehozása és szerkesztése",
+	"action-social-blog-comment": "hozzászólás a blogokon",
+	"right-social-blog": "Blogok létrehozása és szerkesztése",
+	"right-social-blog-comment": "Hozzászólás a blogokon",
+	"bs-socialblog-config-mainlinks-blog-label": "„Blog” belépési pont megjelenítése",
+	"bs-socialblog-config-mainlinks-blog-help": "A bal oldali navigációs sávban a belépési pont „Blog” linkjének megjelenítése",
+	"bs-socialblog-type-groupblog": "Csoportblog",
+	"bs-socialblog-groupblog-permission-error": "A felhasználó nem jogosult művelet végrehajtására",
+	"bs-social-blog-mainlinks-label": "Blog",
+	"bs-social-event-blog-create-desc": "Új blogbejegyzés létrehozva",
+	"bs-social-event-blog-edit-desc": "Blogbejegyzés szerkesztve",
+	"bs-social-event-blog-delete-desc": "Blogbejegyzés törölve",
+	"bs-social-event-blog-create": "{{GENDER:$1| létrehozott}} egy új blogbejegyzést: \"$2\"",
+	"bs-social-event-blog-edit": "{{GENDER:$1| szerkesztette}} a blogbejegyzést: \"$2\"",
+	"bs-social-event-blog-delete": "{{GENDER:$1| törölte}} a blogbejegyzést: \"$2\"",
+	"bs-social-notification-blog-primary-link-label": "Blog megtekintése"
+}

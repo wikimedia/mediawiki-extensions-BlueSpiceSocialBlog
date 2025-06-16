@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Krisztina"
+			"Krisztina",
+			"Tacsipacsi"
 		]
 	},
 	"bs-socialblog-desc": "Blog entitás a BlueSpiceSocial számára",
@@ -27,8 +28,8 @@
 	"bs-social-event-blog-create-desc": "Új blogbejegyzés létrehozva",
 	"bs-social-event-blog-edit-desc": "Blogbejegyzés szerkesztve",
 	"bs-social-event-blog-delete-desc": "Blogbejegyzés törölve",
-	"bs-social-event-blog-create": "{{GENDER:$1| létrehozott}} egy új blogbejegyzést: \"$2\"",
-	"bs-social-event-blog-edit": "{{GENDER:$1| szerkesztette}} a blogbejegyzést: \"$2\"",
-	"bs-social-event-blog-delete": "{{GENDER:$1| törölte}} a blogbejegyzést: \"$2\"",
+	"bs-social-event-blog-create": "{{GENDER:$1|létrehozott}} egy új blogbejegyzést: „$2”",
+	"bs-social-event-blog-edit": "{{GENDER:$1|szerkesztette}} a(z) „$2” blogbejegyzést",
+	"bs-social-event-blog-delete": "{{GENDER:$1|törölte}} a(z) „$2” blogbejegyzést",
 	"bs-social-notification-blog-primary-link-label": "Blog megtekintése"
 }

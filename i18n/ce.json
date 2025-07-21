@@ -12,5 +12,10 @@
 	"bs-socialblog-entityblog-content-more-btn-less": "КӀезиг",
 	"bs-socialblog-special-blog-heading": "Блог",
 	"bs-socialblog-special-blog-heading-entry": "Блог/$1",
+	"bs-socialblog-type-groupblog": "Тобанан блог",
+	"bs-social-blog-mainlinks-label": "Блог",
+	"bs-social-event-blog-create-desc": "Блогехь керла пост кхоьллина",
+	"bs-social-event-blog-edit-desc": "Блогехь пост хийцина",
+	"bs-social-event-blog-delete-desc": "Блогехь керла пост дӀайаьккхина",
 	"bs-social-notification-blog-primary-link-label": "Хьажа блог"
 }

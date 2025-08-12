@@ -1,8 +1,35 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
-	"blog": "Blog"
+	"bs-socialblog-desc": "Entidade de blog para BlueSpiceSocial",
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "Crear un blog novo...",
+	"bs-socialblog-var-blogtitle": "Título",
+	"bs-socialblog-entityblog-content-more-btn-more": "Máis",
+	"bs-socialblog-entityblog-content-more-btn-less": "Menos",
+	"bs-socialblog-toc-useblogteaser": "Utilizar o extracto de texto para as entradas do blog na liña de tempo",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-socialblog-toc-useblogteaser-help": "No formulario do blog, os usuarios poden introducir un extracto de texto facendo clic no símbolo da roda dentada. Se está activado, este extracto móstrase na páxina «Special:Timeline» en lugar da primeira parte da propia entrada do blog.",
+	"action-social-blog": "crear e editar blogs",
+	"action-social-blog-comment": "comentar nos blogs",
+	"right-social-blog": "Crear e editar blogs",
+	"right-social-blog-comment": "Comentar nos blogs",
+	"bs-socialblog-config-mainlinks-blog-label": "Mostrar o punto de entrada «Blog»",
+	"bs-socialblog-config-mainlinks-blog-help": "Mostrar a ligazón ao punto de entrada «Blog» na navegación esquerda",
+	"bs-socialblog-type-groupblog": "Blog do grupo",
+	"bs-socialblog-groupblog-permission-error": "O usuario non ten permiso para realizar a acción",
+	"bs-social-blog-mainlinks-label": "Blog",
+	"bs-social-event-blog-create-desc": "Creouse unha entrada nova no blog",
+	"bs-social-event-blog-edit-desc": "Editouse unha publicación do blog",
+	"bs-social-event-blog-delete-desc": "Eliminouse unha publicación do blog",
+	"bs-social-event-blog-create": "{{GENDER:$1|creou}} unha entrada nova no blog «$2»",
+	"bs-social-event-blog-edit": "{{GENDER:$1|editou}} unha publicación do blog «$2»",
+	"bs-social-event-blog-delete": "{{GENDER:$1|eliminou}} unha publicación do blog «$2»",
+	"bs-social-notification-blog-primary-link-label": "Ver o blog"
 }

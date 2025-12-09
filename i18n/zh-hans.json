@@ -7,6 +7,7 @@
 			"Lakejason0",
 			"LittlePaw365",
 			"Liuxinyu970226",
+			"Peterxy12",
 			"Xyb",
 			"沈澄心"
 		]
@@ -25,5 +26,17 @@
 	"right-social-blog-comment": "评论博客",
 	"bs-social-event-blog-edit-desc": "博文已编辑",
 	"bs-social-event-blog-delete-desc": "博文已删除",
-	"bs-socialblog-special-blog-heading-entry": "博客/$1"
+	"bs-socialblog-special-blog-heading-entry": "博客/$1",
+	"bs-socialblog-desc": "用于BlueSpiceSocial的博客单元",
+	"bs-socialblog-toc-useblogteaser": "在时间轴使用用于博客单元的要点文字",
+	"bs-socialblog-toc-useblogteaser-help": "在博客表单中，用户可以透过点击齿轮状符号来输入要点文字。在生效后，该要点文字会显示在Special:Timeline页面，而不是在博客条目本身的首段。",
+	"bs-socialblog-config-mainlinks-blog-label": "显示“博客”入口点",
+	"bs-socialblog-config-mainlinks-blog-help": "在左侧导航列显示“博客”链接入口点",
+	"bs-socialblog-type-groupblog": "群组博客",
+	"bs-socialblog-groupblog-permission-error": "不允许用户运行操作",
+	"bs-social-blog-mainlinks-label": "博客",
+	"bs-social-event-blog-create-desc": "已创建新的博客文章。",
+	"bs-social-event-blog-create": "{{GENDER:$1|创建了}}新的博客文章“$2”",
+	"bs-social-event-blog-edit": "{{GENDER:$1|编辑了}}博客文章“$2”",
+	"bs-social-event-blog-delete": "{{GENDER:$1|删除了}}博客文章“$2”"
 }

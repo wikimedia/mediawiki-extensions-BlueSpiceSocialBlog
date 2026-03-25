@@ -38,5 +38,11 @@
 	"bs-socialblog-config-mainlinks-blog-label": "הצגת נקודת הכניסה \"בלוג\"",
 	"bs-socialblog-config-mainlinks-blog-help": "הצגת נקודת הכניסה \"בלוג\" בסרגל הניווט הימני",
 	"bs-socialblog-groupblog-permission-error": "המשתמש אינו רשאי לבצע את הפעולה",
-	"bs-social-blog-mainlinks-label": "בלוג"
+	"bs-social-blog-mainlinks-label": "בלוג",
+	"bs-social-event-blog-create-desc": "נוצרה רשומה חדשה בבלוג",
+	"bs-social-event-blog-edit-desc": "רשומת הבלוג נערכה",
+	"bs-social-event-blog-delete-desc": "רשומת הבלוג נמחקה",
+	"bs-social-event-blog-create": "{{GENDER:$1|יצר|יצרה}} בבלוג את הרשומה החדשה \"$2\"",
+	"bs-social-event-blog-edit": "{{GENDER:$1|ערך|ערכה}} את רשומת הבלוג \"$2\"",
+	"bs-social-event-blog-delete": "{{GENDER:$1|מחק|מחקה}} את רשומת הבלוג \"$2\""
 }

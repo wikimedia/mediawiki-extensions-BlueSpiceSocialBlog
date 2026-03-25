@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Brettchenweber",
+			"Justman10000",
 			"Metalhead64",
 			"Mglaser",
 			"Patric Wirth",
@@ -40,5 +41,11 @@
 	"bs-socialblog-config-mainlinks-blog-help": "Einstiegspunkt \"Blog\" in der linken Navigation anzeigen",
 	"bs-socialblog-type-groupblog": "Gruppen-Blog",
 	"bs-socialblog-groupblog-permission-error": "Der Benutzer darf die Aktion nicht ausführen",
-	"bs-social-blog-mainlinks-label": "Blog"
+	"bs-social-blog-mainlinks-label": "Blog",
+	"bs-social-event-blog-create-desc": "Neuer Blogbeitrag erstellt",
+	"bs-social-event-blog-edit-desc": "Blogbeitrag bearbeitet",
+	"bs-social-event-blog-delete-desc": "Blogbeitrag gelöscht",
+	"bs-social-event-blog-create": "{{GENDER:$1|erstellte}} einen neuen Blogbeitrag \"$2\"",
+	"bs-social-event-blog-edit": "{{GENDER:$1|bearbeitete}} Blogbeitrag \"$2\"",
+	"bs-social-event-blog-delete": "{{GENDER:$1|löschte}} Blogbeitrag \"$2\""
 }

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DiegoAmbrocio",
+			"Eulalio",
 			"Fitoschido",
 			"Macofe"
 		]
@@ -22,5 +23,11 @@
 	"bs-socialblog-config-mainlinks-blog-label": "Mostrar punto de entrada \"Blog\"",
 	"bs-socialblog-config-mainlinks-blog-help": "Mostrar el enlace \"Blog\" en la navegación izquierda",
 	"bs-socialblog-type-groupblog": "Blog del grupo",
-	"bs-socialblog-groupblog-permission-error": "El usuario no puede realizar la acción"
+	"bs-socialblog-groupblog-permission-error": "El usuario no puede realizar la acción",
+	"bs-social-event-blog-create-desc": "Creó una nueva entrada de blog.",
+	"bs-social-event-blog-edit-desc": "Publicación de blog editada",
+	"bs-social-event-blog-delete-desc": "Se borró la publicación del blog",
+	"bs-social-event-blog-create": "{{GENDER:$1|creado}} una nueva publicación de blog \"$2\"",
+	"bs-social-event-blog-edit": "{{GENDER:$1|editado}} publicación de blog \"$2\"",
+	"bs-social-event-blog-delete": "{{GENDER:$1|eliminado}} publicación de blog \"$2\""
 }

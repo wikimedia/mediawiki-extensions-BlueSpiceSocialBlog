@@ -24,5 +24,10 @@
 	"bs-social-notifications-email-blog-delete-subject": "Декъашхочо {{GENDER:$1|$2 дӀайаьккхина}} блог «$3»",
 	"bs-social-notifications-email-blog-delete-body": "Декъашхочо {{GENDER:$1|$2 дӀайаьккхина}} блог «$3»",
 	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 дӀайаьккхина}} блог «$3»",
-	"bs-social-notification-blog-primary-link-label": "Хьажа блог"
+	"bs-social-notification-blog-primary-link-label": "Хьажа блог",
+	"bs-socialblog-type-groupblog": "Тобанан блог",
+	"bs-social-blog-mainlinks-label": "Блог",
+	"bs-social-event-blog-create-desc": "Блогехь керла пост кхоьллина",
+	"bs-social-event-blog-edit-desc": "Блогехь пост хийцина",
+	"bs-social-event-blog-delete-desc": "Блогехь керла пост дӀайаьккхина"
 }

@@ -2,11 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Nieszczarda2",
+			"Ucukor",
 			"W"
 		]
 	},
 	"bs-socialblog-var-blogtitle": "Загаловак",
 	"bs-socialblog-entityblog-content-more-btn-more": "Больш",
 	"bs-socialblog-entityblog-content-more-btn-less": "Менш",
-	"action-social-blog-comment": "камэнтаваць блёгі"
+	"action-social-blog-comment": "камэнтаваць блоґі",
+	"bs-socialblog-type": "Блоґ",
+	"blog": "Блоґ",
+	"bs-socialblog-special-blog-heading": "Блоґ",
+	"bs-social-blog-mainlinks-label": "Блоґ"
 }

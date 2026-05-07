@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
+	"bs-socialblog-desc": "BlueSpiceSocial의 블로그 개체",
 	"bs-socialblog-type": "Blog",
 	"blog": "블로그",
 	"bs-socialblog-entityblog-header-create": "새 블로그 만들기...",
@@ -16,6 +18,16 @@
 	"action-social-blog-comment": "블로그에 의견을 달",
 	"right-social-blog": "블로그 만들기 및 편집",
 	"right-social-blog-comment": "블로그에 의견 달기",
+	"bs-socialblog-config-mainlinks-blog-label": "진입점 \"블로그\" 표시",
+	"bs-socialblog-config-mainlinks-blog-help": "왼쪽 둘러보기에 진입점 \"블로그\" 링크를 표시",
+	"bs-socialblog-type-groupblog": "그룹 블로그",
 	"bs-socialblog-groupblog-permission-error": "사용자는 동작을 수행할 권한이 없습니다",
+	"bs-social-blog-mainlinks-label": "블로그",
+	"bs-social-event-blog-create-desc": "새 블로그 게시글 생성됨",
+	"bs-social-event-blog-edit-desc": "블로그 게시글 편집됨",
+	"bs-social-event-blog-delete-desc": "블로그 게시글 삭제됨",
+	"bs-social-event-blog-create": "블로그 게시물 \"$2\"을(를) {{GENDER:$1|생성함}}",
+	"bs-social-event-blog-edit": "블로그 게시물 \"$2\"을(를) {{GENDER:$1|편집함}}",
+	"bs-social-event-blog-delete": "블로그 게시물 \"$2\"을(를) {{GENDER:$1|삭제함}}",
 	"bs-social-notification-blog-primary-link-label": "블로그 보기"
 }

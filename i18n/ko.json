@@ -1,21 +1,35 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Tensama0415"
 		]
 	},
+	"bs-socialblog-desc": "BlueSpiceSocial의 블로그 개체",
 	"bs-socialblog-type": "Blog",
 	"blog": "블로그",
 	"bs-socialblog-entityblog-header-create": "새 블로그 만들기...",
 	"bs-socialblog-var-blogtitle": "제목",
 	"bs-socialblog-entityblog-content-more-btn-more": "더 보기",
 	"bs-socialblog-entityblog-content-more-btn-less": "덜 보기",
+	"bs-socialblog-toc-useblogteaser": "타임라인의 블로그 항목용으로 티저 텍스트를 사용",
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-socialblog-toc-useblogteaser-help": "블로그 양식에서 사용자는 톱니바퀴 아이콘을 클릭하여 티저 텍스트를 입력할 수 있습니다. 이 기능이 활성화되면 해당 티저 텍스트는 블로그 게시물 항목의 첫 부분 대신 Special:Timeline 문서에 표시됩니다.",
 	"action-social-blog": "블로그를 만들고 편집할",
 	"action-social-blog-comment": "블로그에 의견을 달",
 	"right-social-blog": "블로그 만들기 및 편집",
 	"right-social-blog-comment": "블로그에 의견 달기",
+	"bs-socialblog-config-mainlinks-blog-label": "진입점 \"블로그\" 표시",
+	"bs-socialblog-config-mainlinks-blog-help": "왼쪽 둘러보기에 진입점 \"블로그\" 링크를 표시",
+	"bs-socialblog-type-groupblog": "그룹 블로그",
 	"bs-socialblog-groupblog-permission-error": "사용자는 동작을 수행할 권한이 없습니다",
+	"bs-social-blog-mainlinks-label": "블로그",
+	"bs-social-event-blog-create-desc": "새 블로그 게시글 생성됨",
+	"bs-social-event-blog-edit-desc": "블로그 게시글 편집됨",
+	"bs-social-event-blog-delete-desc": "블로그 게시글 삭제됨",
+	"bs-social-event-blog-create": "블로그 게시물 \"$2\"을(를) {{GENDER:$1|생성함}}",
+	"bs-social-event-blog-edit": "블로그 게시물 \"$2\"을(를) {{GENDER:$1|편집함}}",
+	"bs-social-event-blog-delete": "블로그 게시물 \"$2\"을(를) {{GENDER:$1|삭제함}}",
 	"bs-social-notification-blog-primary-link-label": "블로그 보기"
 }

@@ -18,7 +18,7 @@
 	"action-social-blog-comment": "블로그에 의견 달기",
 	"right-social-blog": "블로그 만들기 및 편집",
 	"right-social-blog-comment": "블로그에 의견 달기",
-	"bs-socialblog-groupblog-permission-error": "사용자는 동작을 수행할 권한이 없습니다",
+	"bs-socialblog-groupblog-permission-error": "사용자는 작업을 수행할 권한이 없습니다",
 	"bs-socialblog-desc": "BlueSpiceSocial의 블로그 개체",
 	"bs-socialblog-config-mainlinks-blog-label": "진입점 \"블로그\" 표시",
 	"bs-socialblog-config-mainlinks-blog-help": "왼쪽 둘러보기에 진입점 \"블로그\" 링크를 표시",

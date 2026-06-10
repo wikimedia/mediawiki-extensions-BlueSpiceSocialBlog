@@ -18,7 +18,7 @@
 	"bs-socialblog-toc-useblogteaser": "Teaser-tekst gebruiken voor blogberichten in de tijdlijn",
 	"bs-socialblog-special-blog-heading": "Blog",
 	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
-	"bs-socialblog-toc-useblogteaser-help": "In het blogformulier kunnen gebruikers een teaser-tekst invoeren door op het tandwielsymbool te klikken. Bij activering wordt deze teaser-tekst getoond op de pagina Special:Timeline in plaats van het eerste deel van het blogbericht zelf.",
+	"bs-socialblog-toc-useblogteaser-help": "In het blogformulier kunnen gebruikers een teaser-tekst invoeren door op het tandwielsymbool te klikken. Bij activering wordt deze teaser-tekst weergegeven op de pagina Special:Timeline in plaats van het eerste deel van het blogbericht zelf.",
 	"action-social-blog": "blogs aan te maken en te bewerken",
 	"action-social-blog-comment": "reageren op blogs",
 	"right-social-blog": "Blogs aanmaken en bewerken",
